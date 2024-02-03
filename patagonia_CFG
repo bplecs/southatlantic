@@ -1262,6 +1262,11 @@
       "Launcher",
       "Driveable"
     ],
+    "Soldier AK": [
+      "Infantry",
+      "SR",
+      "SmallArms"
+    ],
     "Infantry AK": [
       "Infantry",
       "SR",
