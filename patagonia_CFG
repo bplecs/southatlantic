@@ -1123,6 +1123,11 @@
       "Logistics",
       "Unarmed"
     ],
+    "ammo_cargo": [
+      "Logistics",
+      "Unarmed"
+    ],
+    "M
     "FARP Ammo Dump Coating": [
       "Logistics",
       "Unarmed"
