@@ -484,7 +484,7 @@
           "Ground Units",
           "MLRS"
         ],
-        "template": "DEPMLRS",
+        "template": "DEPRMLRS",
         "persist": "Forever",
         "limit": 4,
         "limit_enforce": "DeleteOldest",
@@ -1242,6 +1242,22 @@
       "Artillery",
       "Driveable"
     ],
+    "Grad_FDDM": [
+      "Artillery",
+      "Driveable"
+    ],
+    "Smerch": [
+      "Artillery",
+      "Driveable"
+    ],
+    "Smerch_HE": [
+      "Artillery",
+      "Driveable"
+    ],
+    "Uragan_BM-27": [
+      "Artillery",
+      "Driveable"
+    ]
     "Roland ADS": [
       "SAM",
       "MR",
