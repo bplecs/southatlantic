@@ -774,9 +774,9 @@
       {
         "path": [
           "AAA",
-          "Vulkan"
+          "Vulcan"
         ],
-        "template": "DEPVULKAN",
+        "template": "DEPVULCAN",
         "persist": "Forever",
         "limit": 4,
         "limit_enforce": "DeleteOldest",
@@ -798,7 +798,7 @@
       {
         "path": [
           "Ground Units",
-          "Firtina 155MM"
+          "Firtina 155mm"
         ],
         "template": "DEPFIRTINA",
         "persist": "Forever",
@@ -819,6 +819,31 @@
         "ewr": null,
         "jtac": null
       },
+       {
+        "path": [
+          "Ground Units",
+          "MLRS"
+        ],
+        "template": "DEPBMLRS",
+        "persist": "Forever",
+        "limit": 4,
+        "limit_enforce": "DeleteOldest",
+        "crates": [
+          {
+            "name": "MLRS crate",
+            "weight": 1000,
+            "required": 1,
+            "pos_unit": null,
+            "max_drop_height_agl": 20,
+            "max_drop_speed": 350
+          }
+        ],
+        "repair_crate": null,
+        "logistics": null,
+        "ewr": null,
+        "jtac": null
+      },
+
       {
         "path": [
           "Ground Units",
