@@ -1215,6 +1215,10 @@
       "Artillery",
       "Driveable"
     ],
+    "MLRS": [
+      "Artillery",
+      "Driveable"
+    ],
     "Roland ADS": [
       "SAM",
       "MR",
