@@ -482,6 +482,30 @@
       {
         "path": [
           "Ground Units",
+          "MLRS"
+        ],
+        "template": "DEPMLRS",
+        "persist": "Forever",
+        "limit": 4,
+        "limit_enforce": "DeleteOldest",
+        "crates": [
+          {
+            "name": "MLRS",
+            "weight": 2000,
+            "required": 1,
+            "pos_unit": null,
+            "max_drop_height_agl": 20,
+            "max_drop_speed": 350
+          }
+        ],
+        "repair_crate": null,
+        "logistics": null,
+        "ewr": null,
+        "jtac": null
+      },
+      {
+        "path": [
+          "Ground Units",
           "T72"
         ],
         "template": "DEPT72",
@@ -843,7 +867,6 @@
         "ewr": null,
         "jtac": null
       },
-
       {
         "path": [
           "Ground Units",
