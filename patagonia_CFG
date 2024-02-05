@@ -1211,6 +1211,10 @@
       "SmallArms",
       "Driveable"
     ],
+    "Grad-URAL": [
+      "Artillery",
+      "Driveable"
+    ],
     "Roland ADS": [
       "SAM",
       "MR",
