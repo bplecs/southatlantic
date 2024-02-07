@@ -76,6 +76,7 @@
     "Mi-8MT": 9000,
     "Ka-50_3": 14400,
     "F-15C": 36000,
+    "F-15E": 36000,
     "Ka-50": 14400,
     "FA-18C_hornet": 36000,
     "A-10C": 21600,
@@ -125,6 +126,7 @@
     "Mi-8MT": "Logistics",
     "Ka-50_3": "Attack",
     "F-15C": "Standard",
+    "F-15E": "Standard",
     "Ka-50": "Attack",
     "FA-18C_hornet": "Standard",
     "A-10C": "Attack",
@@ -1409,6 +1411,9 @@
       "Launcher",
       "SmallArms",
       "Driveable"
+    ],
+    "F-15E": [
+      "Aircraft"
     ],
     "F-16C_50": [
       "Aircraft"
