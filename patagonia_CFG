@@ -8,7 +8,7 @@
     "d931948745285fc8e42adbe35a7dfd50": "admin" 
   },
   "repair_time": 1800,
-  "shutdown": 720,
+  "shutdown": 9,
   "repair_crate": {
     "Red": {
       "name": "Logistics Repair",
@@ -79,7 +79,7 @@
     "F-15E": 36000,
     "Ka-50": 14400,
     "FA-18C_hornet": 90000,
-    "A-10C": 21000,
+    "A-10C": 36000,
     "SA342M": 16000,
     "A-10A": 21600,
     "AJS37": 36000,
@@ -89,14 +89,14 @@
     "Su-25T": 36000,
     "Su-25": 36000,
     "F-5E-3": 36000,
-    "A-10C_2": 21000,
-    "SA342L": 16000,
-    "AH-64D_BLK_II": 14400,
-    "UH-1H": 16000,
+    "A-10C_2": 36000,
+    "SA342L": 36000,
+    "AH-64D_BLK_II": 36000,
+    "UH-1H": 36000,
     "L-39ZA": 16000,
     "F-5E-3": 21000,
     "Yak-52": 0,
-    "Mi-24P": 16000,
+    "Mi-24P": 36000,
     "JF-17": 36000,
     "F-15ESE": 90000,
     "AV8BNA": 36000,
@@ -185,8 +185,8 @@
     },
     "Mi-8MT": {
       "troop_slots": 2,
-      "crate_slots": 2,
-      "total_slots": 3 
+      "crate_slots": 1,
+      "total_slots": 2 
     },
     "SA342L": {
       "troop_slots": 1,
@@ -493,7 +493,7 @@
           {
             "name": "MLRS",
             "weight": 2000,
-            "required": 1,
+            "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 20,
             "max_drop_speed": 350
@@ -857,7 +857,7 @@
           {
             "name": "MLRS crate",
             "weight": 1000,
-            "required": 1,
+            "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 20,
             "max_drop_speed": 350
