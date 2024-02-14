@@ -1122,7 +1122,7 @@
     ],
     "ZSU_57_2": [
       "AAA",
-      "LR",
+      "MR",
       "Driveable"
     ],
     "Hawk ln": [
@@ -1387,7 +1387,7 @@
     ],
     "ZSU-23-4 Shilka": [
       "AAA",
-      "MR",
+      "SR",
       "RadarGuided",
       "Driveable"
     ],
