@@ -1,0 +1,26 @@
+
+# Default install location
+INSTALLDIR="/c/Program\ Files/Eagle\ Dynamics/DCS\ World\ Openbeta\ Server/bin"
+
+
+# Default instance directory
+INSTANCEDIR="~/Saved Games/DCS.openbeta_server"
+LOGDIR="${INSTANCEDIR}/Logs"
+LOCKFILE="${INSTANCEDIR}/dcs.lock"
+
+# Default command to start DCS server
+LAUNCH_DCS="cd ${INSTALLDIR} && ${INSTALLDIR}/DCS_server.exe"
+
+# Time in seconds to wait between checking if server is still running
+SLEEPTIME=60 
+
+while [ 1 ] 
+	do
+
+	if [ ! -f "${LOCKFILE}" ] 
+		then
+		${LAUNCH_DCS}
+	else
+		sleep $SLEEPTIME
+
+	done
