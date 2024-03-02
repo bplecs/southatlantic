@@ -123,6 +123,7 @@
     "IL-78M": 0,
     "KC130": 0,
     "KC-135": 0,
+    "KC135MPRS": 0,
     "Su-33": 36000
   },
   "threatened_cooldown": 300,
