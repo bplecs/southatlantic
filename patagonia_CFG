@@ -300,11 +300,11 @@
       "deploy-ewr": {
         "kind": {
           "Deployable": {
-            "name": "1L13",
+            "name": "EWR",
             "plane": {
               "kind": "Helicopter",
               "duration": null,
-              "template": "RTROOPCARRIER",
+              "template": "RCARGOCARRIER",
               "altitude": 800.0,
               "altitude_typ": "RADIO",
               "speed": 70.0
@@ -509,11 +509,11 @@
       "deploy-ewr": {
         "kind": {
           "Deployable": {
-            "name": "AN/FPS-117",
+            "name": "EWR",
             "plane": {
               "kind": "Helicopter",
               "duration": null,
-              "template": "BTROOPCARRIER",
+              "template": "BCARGOCARRIER",
               "altitude": 800.0,
               "altitude_typ": "RADIO",
               "speed": 60.0
