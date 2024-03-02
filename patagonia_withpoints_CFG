@@ -115,6 +115,14 @@
     "AV8BNA": 36000,
     "MB-339A": 9000,
     "J-11A": 36000,
+    "Tu-22M": 36000,
+    "A-50": 0,
+    "E-3A": 0,
+    "B-1B": 36000,
+    "MQ-9 Reaper": 0,
+    "IL-78M": 0,
+    "KC130": 0,
+    "KC-135": 0,
     "Su-33": 36000
   },
   "threatened_cooldown": 300,
@@ -263,7 +271,7 @@
         "limit": null
       },
       "fighters-waypoint": {
-        "kind": "FightersWaypoint",
+        "kind": "FighersWaypoint",
         "cost": 5,
         "penalty": null,
         "limit": null
@@ -1747,6 +1755,33 @@
     ],
     "AH-64D_BLK_II": [
       "Helicopter"
+    ],
+     "B-1B": [
+      "Aircraft"
+    ],
+    "A-50": [
+      "Aircraft"
+    ],
+    "MQ-9 Reaper": [
+      "Aircraft"
+    ],
+    "E-3A": [
+      "Aircraft"
+    ],
+    "IL-78M": [
+      "Aircraft"
+    ],
+    "Tu-22M3": [
+      "Aircraft"
+    ],
+    "KC130": [
+      "Aircraft"
+    ],
+    "KC-135": [
+      "Aircraft"
+    ],
+    "KC135MPRS": [
+      "Aircraft"
     ],
     "M-109": [
       "Armor",
