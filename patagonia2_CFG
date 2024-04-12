@@ -395,12 +395,18 @@
       "awacs": {
         "kind": {
           "Awacs": {
+	    "ewr": {
+	      "range": 400000
+	      },
+	   "plane": {
             "kind": "FixedWing",
             "duration": 8,
             "template": "RAWACS",
             "altitude": 11000.0,
             "altitude_typ": "BARO",
             "speed": 200.0
+	    "freq" : 125000000
+	    }
           }
         },
         "cost": 100,
@@ -619,12 +625,18 @@
       "awacs": {
         "kind": {
           "Awacs": {
+	    "ewr": { 
+	      "range": 400000
+	    },
+	    "plane": {
             "kind": "FixedWing",
             "duration": 8,
             "template": "BAWACS",
             "altitude": 11000.0,
             "altitude_typ": "BARO",
             "speed": 200.0
+	    "freq": 125000000
+	    }
           }
         },
         "cost": 100,
