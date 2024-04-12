@@ -404,7 +404,7 @@
             "template": "RAWACS",
             "altitude": 11000.0,
             "altitude_typ": "BARO",
-            "speed": 200.0
+            "speed": 200.0,
 	    "freq" : 125000000
 	    }
           }
@@ -634,7 +634,7 @@
             "template": "BAWACS",
             "altitude": 11000.0,
             "altitude_typ": "BARO",
-            "speed": 200.0
+            "speed": 200.0,
 	    "freq": 125000000
 	    }
           }
