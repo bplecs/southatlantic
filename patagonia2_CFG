@@ -724,10 +724,35 @@
           "max_drop_speed": 50
         },
         "logistics": null,
+	"cost": 50",
         "ewr": {
           "range": 30000
         },
         "jtac": null
+      },
+      { "path": [
+          "Radar SAMs",
+	  "SA8"
+	],
+	"template": "DEPSA8",
+	"persist": "Forever",
+	"limit": 4,
+	"limit_enforce": "DeleteOldest",
+	"crates": [
+	  { 
+	    "name": "SA8",
+	    "weight": 1500,
+	    "required": 2,
+	    "pos_unit": null,
+	    "max_drop_height_agl": 10,
+	    "max_drop_speed": 50
+	    } 
+	 ],
+	 "repair_crate": null,
+	 "logistics": null,
+	 "cost": 25,
+	 "ewr": null,
+	 "jtac": null
       },
       {
         "path": [
@@ -773,6 +798,7 @@
           "max_drop_speed": 50
         },
         "logistics": null,
+	"cost": 100,
         "ewr": {
           "range": 60000
         },
@@ -799,6 +825,7 @@
         ],
         "repair_crate": null,
         "logistics": null,
+	"cost": 100,
         "ewr": {
           "range": 20000
         },
@@ -849,6 +876,7 @@
         ],
         "repair_crate": null,
         "logistics": null,
+	"cost": 5,
         "ewr": null,
         "jtac": null
       },
@@ -873,6 +901,7 @@
         ],
         "repair_crate": null,
         "logistics": null,
+	"cost": 15,
         "ewr": null,
         "jtac": null
       },
@@ -897,6 +926,7 @@
         ],
         "repair_crate": null,
         "logistics": null,
+	"cost": 25,
         "ewr": null,
         "jtac": null
       },
@@ -921,6 +951,7 @@
         ],
         "repair_crate": null,
         "logistics": null,
+	"cost": 25,
         "ewr": null,
         "jtac": null
       },
@@ -945,8 +976,34 @@
         ],
         "repair_crate": null,
         "logistics": null,
+	"cost": 25,
         "ewr": null,
         "jtac": null
+      },
+      {
+        "path": [ 
+	  "Ground Units",
+	  "Howtz Battery"
+	  ]
+	"template": "DEP6MSTA",
+	"persist": "Forever",
+	"limit": 2,
+	"limit_enforce": "DeleteOldest",
+	"crates": [
+	  {
+	    "name": "Howtz Battery Crate",
+	    "weight": 1500,
+	    "required": 8,
+	    "pos_unit": null,
+	    "max_drop_height_agl": 20,
+	    "max_drop_speed": 50
+	  }
+	],
+	"repair_crate": null,
+	"logistics": null,
+	"cost": 150,
+	"ewr": null,
+	"jtac": null
       },
       {
         "path": [
@@ -955,7 +1012,7 @@
         ],
         "template": "DEPRMLRS",
         "persist": "Forever",
-        "limit": 4,
+        "limit": 3,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -968,6 +1025,7 @@
           }
         ],
         "repair_crate": null,
+	"cost": 25,
         "logistics": null,
         "ewr": null,
         "jtac": null
@@ -993,6 +1051,7 @@
         ],
         "repair_crate": null,
         "logistics": null,
+	"cost": 100,
         "ewr": null,
         "jtac": {
           "range": 8000
@@ -1019,6 +1078,7 @@
         ],
         "repair_crate": null,
         "logistics": null,
+	"cost": 50,
         "ewr": null,
         "jtac": {
           "range": 8000
@@ -1031,7 +1091,7 @@
         ],
         "template": "DEPRAMMO",
         "persist": "Forever",
-        "limit": 4,
+        "limit": 10,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -1045,6 +1105,7 @@
         ],
         "repair_crate": null,
         "logistics": null,
+	"cost": 5,
         "ewr": null,
         "jtac": null
       },
@@ -1069,6 +1130,7 @@
         ],
         "repair_crate": null,
         "logistics": null,
+	"cost": 10,
         "ewr": {
           "range": 500000
         },
@@ -1104,6 +1166,7 @@
           "fuel_template": "DEPRFARPFUEL",
           "barracks_template": "DEPRFARPTENT"
         },
+	"cost": 100,
         "ewr": null,
         "jtac": null
       }
@@ -1121,7 +1184,7 @@
         "crates": [
           {
             "name": "Roland",
-            "weight": 1000,
+            "weight": 800,
             "required": 4,
             "pos_unit": null,
             "max_drop_height_agl": 10,
@@ -1130,6 +1193,7 @@
         ],
         "repair_crate": null,
         "logistics": null,
+	"cost": 50,
         "ewr": {
           "range": 20000
         },
@@ -1147,7 +1211,7 @@
         "crates": [
           {
             "name": "Hawk Launcher",
-            "weight": 1000,
+            "weight": 800,
             "required": 1,
             "pos_unit": "Hawk ln",
             "max_drop_height_agl": 10,
@@ -1155,7 +1219,7 @@
           },
           {
             "name": "Hawk Search Radar",
-            "weight": 1000,
+            "weight": 800,
             "required": 1,
             "pos_unit": "Hawk sr",
             "max_drop_height_agl": 10,
@@ -1163,7 +1227,7 @@
           },
           {
             "name": "Hawk Track Radar",
-            "weight": 1000,
+            "weight": 800,
             "required": 1,
             "pos_unit": "Hawk tr",
             "max_drop_height_agl": 10,
@@ -1171,7 +1235,7 @@
           },
           {
             "name": "Hawk CC",
-            "weight": 1000,
+            "weight": 800,
             "required": 1,
             "pos_unit": "Hawk pcp",
             "max_drop_height_agl": 10,
@@ -1180,13 +1244,14 @@
         ],
         "repair_crate": {
           "name": "Hawk Repair",
-          "weight": 1000,
+          "weight": 800,
           "required": 1,
           "pos_unit": null,
           "max_drop_height_agl": 10,
           "max_drop_speed": 50
         },
         "logistics": null,
+	"cost": 75,
         "ewr": {
           "range": 60000
         },
@@ -1204,7 +1269,7 @@
         "crates": [
           {
             "name": "Avenger Crate",
-            "weight": 1000,
+            "weight": 800,
             "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 10,
@@ -1213,6 +1278,7 @@
         ],
         "repair_crate": null,
         "logistics": null,
+	"cost": 25,
         "ewr": null,
         "jtac": null
       },
@@ -1228,7 +1294,7 @@
         "crates": [
           {
             "name": "Linebacker Crate",
-            "weight": 1000,
+            "weight": 800,
             "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 10,
@@ -1237,6 +1303,7 @@
         ],
         "repair_crate": null,
         "logistics": null,
+	"cost": 25,
         "ewr": null,
         "jtac": null
       },
@@ -1252,7 +1319,7 @@
         "crates": [
           {
             "name": "Gepard Crate",
-            "weight": 1000,
+            "weight": 800,
             "required": 4,
             "pos_unit": null,
             "max_drop_height_agl": 20,
@@ -1261,6 +1328,7 @@
         ],
         "repair_crate": null,
         "logistics": null,
+	"cost": 25,
         "ewr": null,
         "jtac": null
       },
@@ -1276,7 +1344,7 @@
         "crates": [
           {
             "name": "Vulcan Crate",
-            "weight": 1000,
+            "weight": 800,
             "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 20,
@@ -1285,6 +1353,7 @@
         ],
         "repair_crate": null,
         "logistics": null,
+	"cost": 15,
         "ewr": null,
         "jtac": null
       },
@@ -1300,7 +1369,7 @@
         "crates": [
           {
             "name": "Firtina Crate",
-            "weight": 1000,
+            "weight": 800,
             "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 20,
@@ -1309,8 +1378,34 @@
         ],
         "repair_crate": null,
         "logistics": null,
+	"cost": 25,
         "ewr": null,
         "jtac": null
+      },
+      {
+        "path": [
+	  "Ground Units",
+	  "Howtz Battery",
+	  ],
+	 "template": "DEP6FIRTINA",
+	 "persist": "Forever",
+	 "limit": 2,
+	 "limit_enforce": "DeleteOldest",
+	 "crates": [
+	   {
+	     "name": "Howtz Battery crate",
+	     "weight": 800,
+	     "required": 8,
+	     "pos_unit": null,
+	     "max_drop_height_agl": 20,
+	     "max_drop_speed": 10
+	   },
+	   "repair_crate": null,
+	   "logistics": null,
+	   "cost": 150,
+	   "ewr": null,
+	   "jtac": null
+	 ],
       },
        {
         "path": [
@@ -1324,7 +1419,7 @@
         "crates": [
           {
             "name": "MLRS crate",
-            "weight": 1000,
+            "weight": 800,
             "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 20,
@@ -1333,6 +1428,7 @@
         ],
         "repair_crate": null,
         "logistics": null,
+	"cost": 50,
         "ewr": null,
         "jtac": null
       },
@@ -1348,7 +1444,7 @@
         "crates": [
           {
             "name": "Bradley Crate",
-            "weight": 1000,
+            "weight": 800,
             "required": 4,
             "pos_unit": null,
             "max_drop_height_agl": 20,
@@ -1357,6 +1453,7 @@
         ],
         "repair_crate": null,
         "logistics": null,
+	"cost": 50,
         "ewr": null,
         "jtac": {
           "range": 8000
@@ -1374,7 +1471,7 @@
         "crates": [
           {
             "name": "Leopard Crate",
-            "weight": 1000,
+            "weight": 800,
             "required": 4,
             "pos_unit": null,
             "max_drop_height_agl": 20,
@@ -1383,6 +1480,7 @@
         ],
         "repair_crate": null,
         "logistics": null,
+	"cost": 100,
         "ewr": null,
         "jtac": {
           "range": 8000
@@ -1409,6 +1507,7 @@
         ],
         "repair_crate": null,
         "logistics": null,
+	"cost": 5,
         "ewr": null,
         "jtac": null
       },
@@ -1433,6 +1532,7 @@
         ],
         "repair_crate": null,
         "logistics": null,
+	"cost": 10,
         "ewr": {
           "range": 500000
         },
@@ -1469,6 +1569,7 @@
           "barracks_template": "DEPBFARPTENT"
         },
         "ewr": null,
+	"cost": 100,
         "jtac": null
       }
     ]
@@ -1483,6 +1584,7 @@
         "limit": 10,
         "limit_enforce": "DeleteOldest",
         "weight": 800,
+	"cost": 0,
         "jtac": {
           "range": 8000
         }
@@ -1495,6 +1597,7 @@
         "limit": 10,
         "limit_enforce": "DeleteOldest",
         "weight": 1000,
+	"cost": 5,
         "jtac": {
           "range": 8000
         }
@@ -1507,6 +1610,7 @@
         "limit": 10,
         "limit_enforce": "DeleteOldest",
         "weight": 1200,
+	"cost": 5,
         "jtac": {
           "range": 8000
         }
@@ -1519,6 +1623,7 @@
         "limit": 10,
         "limit_enforce": "DeleteOldest",
         "weight": 500,
+	"cost": 25,
         "jtac": null
       }
     ],
@@ -1531,6 +1636,7 @@
         "limit": 10,
         "limit_enforce": "DeleteOldest",
         "weight": 500,
+	"cost": 0,
         "jtac": {
           "range": 8000
         }
@@ -1543,6 +1649,7 @@
         "limit": 10,
         "limit_enforce": "DeleteOldest",
         "weight": 500,
+	"cost": 5,
         "jtac": {
           "range": 8000
         }
@@ -1555,6 +1662,7 @@
         "limit": 10,
         "limit_enforce": "DeleteOldest",
         "weight": 500,
+	"cost": 5,
         "jtac": {
           "range": 8000
         }
@@ -1567,6 +1675,7 @@
         "limit": 10,
         "limit_enforce": "DeleteOldest",
         "weight": 500,
+	"cost": 25,
         "jtac": {
           "range": 8000
         }
