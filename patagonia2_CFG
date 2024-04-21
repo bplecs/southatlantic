@@ -2235,6 +2235,11 @@
       "SmallArms",
       "Driveable"
     ],
+    "Pak40": [
+      "Infantry",
+      "HeavyCannon",
+      "MR"
+    ],
     "F-15ESE": [
       "Aircraft"
     ],
