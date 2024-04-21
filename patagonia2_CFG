@@ -1393,13 +1393,14 @@
 	 "limit_enforce": "DeleteOldest",
 	 "crates": [
 	   {
-	     "name": "Howtz Battery crate",
+	     "name": "Howtz Battery Crate",
 	     "weight": 800,
 	     "required": 8,
 	     "pos_unit": null,
 	     "max_drop_height_agl": 20,
 	     "max_drop_speed": 10
-	   },
+	   }
+	   ],
 	   "repair_crate": null,
 	   "logistics": null,
 	   "cost": 150,
