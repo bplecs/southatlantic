@@ -724,7 +724,7 @@
           "max_drop_speed": 50
         },
         "logistics": null,
-	"cost": 50",
+	"cost": 50,
         "ewr": {
           "range": 30000
         },
