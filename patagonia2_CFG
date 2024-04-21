@@ -984,7 +984,7 @@
         "path": [ 
 	  "Ground Units",
 	  "Howtz Battery"
-	  ]
+	  ],
 	"template": "DEP6MSTA",
 	"persist": "Forever",
 	"limit": 2,
