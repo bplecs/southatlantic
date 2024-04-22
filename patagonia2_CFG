@@ -958,7 +958,7 @@
       {
         "path": [
           "Ground Units",
-          "SPH 2S19 Msta 152MM"
+          "Howitzer"
         ],
         "template": "DEPMSTA",
         "persist": "Forever",
@@ -966,7 +966,7 @@
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
-            "name": "MSTA Crate",
+            "name": "Howitzer Crate",
             "weight": 2000,
             "required": 1,
             "pos_unit": null,
@@ -1360,7 +1360,7 @@
       {
         "path": [
           "Ground Units",
-          "Firtina 155mm"
+          "Howitzer"
         ],
         "template": "DEPFIRTINA",
         "persist": "Forever",
@@ -1368,7 +1368,7 @@
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
-            "name": "Firtina Crate",
+            "name": "Howitzer Crate",
             "weight": 800,
             "required": 2,
             "pos_unit": null,
