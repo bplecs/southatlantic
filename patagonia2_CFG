@@ -130,7 +130,7 @@
   "crate_load_distance": 50,
   "crate_spread": 500,
   "side_switches": 1,
-  "max_crates": 5,
+  "max_crates": 8,
   "life_types": {
     "Mirage-F1EE": "Intercept",
     "C-101CC": "Recon",
@@ -1586,7 +1586,7 @@
         "weight": 800,
 	"cost": 0,
         "jtac": {
-          "range": 8000
+          "range": 10000
         }
       },
       {
@@ -1599,7 +1599,7 @@
         "weight": 1000,
 	"cost": 5,
         "jtac": {
-          "range": 8000
+          "range": 10000
         }
       },
       {
@@ -1612,7 +1612,7 @@
         "weight": 1200,
 	"cost": 5,
         "jtac": {
-          "range": 8000
+          "range": 10000
         }
       },
       {
@@ -1638,7 +1638,7 @@
         "weight": 500,
 	"cost": 0,
         "jtac": {
-          "range": 8000
+          "range": 10000
         }
       },
       {
@@ -1651,7 +1651,7 @@
         "weight": 500,
 	"cost": 5,
         "jtac": {
-          "range": 8000
+          "range": 10000
         }
       },
       {
@@ -1664,7 +1664,7 @@
         "weight": 500,
 	"cost": 5,
         "jtac": {
-          "range": 8000
+          "range": 10000
         }
       },
       {
@@ -1676,9 +1676,7 @@
         "limit_enforce": "DeleteOldest",
         "weight": 500,
 	"cost": 25,
-        "jtac": {
-          "range": 8000
-        }
+        "jtac": null
       }
     ]
   },
