@@ -2287,11 +2287,11 @@
       "RadarGuided",
       "AuxRadarUnit"
     ],
-    "Scout HMMWV": [
+    "M1043 HMMWV Armament": [
       "Driveable",
       "SR"
       ],
-    "Scout Cobra": [
+    "Cobra": [
       "Driveable",
       "SR"
       ],
