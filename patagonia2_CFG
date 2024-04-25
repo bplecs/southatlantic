@@ -71,7 +71,7 @@
   },
   "logistics_exclusion": 10000,
   "unit_cull_distance": 83000,
-  "ground_vehicle_cull_distance": 12000,
+  "ground_vehicle_cull_distance": 12500,
   "artillery_mission_range": 32000,
   "slow_timed_events_freq": 10,
   "threatened_distance": {
@@ -930,6 +930,31 @@
         "ewr": null,
         "jtac": null
       },
+       {
+        "path": [
+          "IR SAMs",
+          "SA9 Strela"
+        ],
+        "template": "DEPSA9",
+        "persist": "Forever",
+        "limit": 4,
+        "limit_enforce": "DeleteOldest",
+        "crates": [
+          {
+            "name": "SA9 Strela Crate",
+            "weight": 2000,
+            "required": 2,
+            "pos_unit": null,
+            "max_drop_height_agl": 10,
+            "max_drop_speed": 50
+          }
+        ],
+        "repair_crate": null,
+        "logistics": null,
+        "cost": 20,
+        "ewr": null,
+        "jtac": null
+      },
       {
         "path": [
           "IR SAMs",
@@ -1057,6 +1082,34 @@
           "range": 8000
         }
       },
+ {
+        "path": [
+          "Ground Units",
+          "Scout Car"
+        ],
+        "template": "DEPRSCOUT",
+        "persist": "Forever",
+        "limit": 5,
+        "limit_enforce": "DeleteOldest",
+        "crates": [
+          {
+            "name": "Scout Car Crate",
+            "weight": 2000,
+            "required": 4,
+            "pos_unit": null,
+            "max_drop_height_agl": 20,
+            "max_drop_speed": 350
+          }
+        ],
+        "repair_crate": null,
+        "logistics": null,
+        "cost": 15,
+        "ewr": null,
+        "jtac": {
+          "range": 12000
+        }
+      },
+
       {
         "path": [
           "Ground Units",
@@ -1357,6 +1410,7 @@
         "ewr": null,
         "jtac": null
       },
+      
       {
         "path": [
           "Ground Units",
@@ -1486,6 +1540,33 @@
           "range": 8000
         }
       },
+       {
+        "path": [
+          "Ground Units",
+          "Scout Car"
+        ],
+        "template": "DEPBSCOUT",
+        "persist": "Forever",
+        "limit": 5,
+        "limit_enforce": "DeleteOldest",
+        "crates": [
+          {
+            "name": "Scout Car Crate",
+            "weight": 800,
+            "required": 1,
+            "pos_unit": null,
+            "max_drop_height_agl": 20,
+            "max_drop_speed": 350
+          }
+        ],
+        "repair_crate": null,
+        "logistics": null,
+        "cost": 15,
+        "ewr": null,
+        "jtac": {
+          "range": 12000
+        }
+      },
       {
         "path": [
           "Ground Units",
@@ -1586,7 +1667,7 @@
         "weight": 800,
 	"cost": 0,
         "jtac": {
-          "range": 10000
+          "range": 12000
         }
       },
       {
@@ -1599,7 +1680,7 @@
         "weight": 1000,
 	"cost": 5,
         "jtac": {
-          "range": 10000
+          "range": 12000
         }
       },
       {
@@ -1612,7 +1693,7 @@
         "weight": 1200,
 	"cost": 5,
         "jtac": {
-          "range": 10000
+          "range": 12000
         }
       },
       {
@@ -1638,7 +1719,7 @@
         "weight": 500,
 	"cost": 0,
         "jtac": {
-          "range": 10000
+          "range": 12000
         }
       },
       {
@@ -1651,7 +1732,7 @@
         "weight": 500,
 	"cost": 5,
         "jtac": {
-          "range": 10000
+          "range": 12000
         }
       },
       {
@@ -1664,7 +1745,7 @@
         "weight": 500,
 	"cost": 5,
         "jtac": {
-          "range": 10000
+          "range": 12000
         }
       },
       {
@@ -2206,6 +2287,14 @@
       "RadarGuided",
       "AuxRadarUnit"
     ],
+    "Scout HMMWV": [
+      "Driveable",
+      "SR"
+      ],
+    "Scout Cobra": [
+      "Driveable",
+      "SR"
+      ],
     "BMP-3": [
       "APC",
       "MR",
@@ -2244,6 +2333,10 @@
     "F-15C": [
       "Aircraft"
     ],
+    "ATZ-5": [
+      "Logistics",
+      "Unarmed"
+      ],
     "ATZ-10": [
       "Logistics",
       "Unarmed"
@@ -2259,6 +2352,10 @@
       "Logistics",
       "Unarmed"
     ],
+    "Ural-4320T": [
+      "Logistics",
+      "Unarmed"
+      ],
     "SA342M": [
       "Helicopter"
     ],
