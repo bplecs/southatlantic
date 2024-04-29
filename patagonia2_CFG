@@ -993,7 +993,7 @@
           {
             "name": "Howitzer Crate",
             "weight": 2000,
-            "required": 1,
+            "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 20,
             "max_drop_speed": 350
