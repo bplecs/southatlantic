@@ -18,9 +18,9 @@
     "air_kill": 25,
     "ground_kill": 2,
     "lr_sam_bonus": 5,
-    "logistics_repair": 50,
-    "logistics_transfer": 50,
-    "capture": 50 
+    "logistics_repair": 0,
+    "logistics_transfer": 0,
+    "capture": 0 
   },
   "repair_crate": {
     "Red": {
@@ -53,7 +53,7 @@
         "required": 1,
         "pos_unit": null,
         "max_drop_height_agl": 10,
-        "max_drop_speed": 13
+        "max_drop_speed": 50 
       },
       "Blue": {
         "name": "Supply Transfer",
@@ -61,7 +61,7 @@
         "required": 1,
         "pos_unit": null,
         "max_drop_height_agl": 10,
-        "max_drop_speed": 13
+        "max_drop_speed": 50 
       }
     },
     "supply_source": {
@@ -268,7 +268,7 @@
           }
         },
         "cost": 50,
-        "penalty": 100,
+        "penalty": 0,
         "limit": null
       },
       "fighters-waypoint": {
@@ -327,8 +327,8 @@
             "speed": 70.0
           }
         },
-        "cost": 100,
-        "penalty": 100,
+        "cost": 50,
+        "penalty": 0,
         "limit": null
       },
       "transfer": {
@@ -342,15 +342,16 @@
             "speed": 70.0
           }
         },
-        "cost": 100,
-        "penalty": 100,
+        "cost": 50,
+        "penalty": 0,
         "limit": null
       },
       "drone": {
         "kind": {
           "Drone": {
             "jtac": {
-              "range": 16000
+              "range": 16000,
+	      "nolos": true
             },
             "plane": {
               "kind": "FixedWing",
@@ -410,7 +411,7 @@
           }
         },
         "cost": 100,
-        "penalty": 100,
+        "penalty": 0,
         "limit": null
       }
     },
@@ -483,7 +484,7 @@
           }
         },
         "cost": 50,
-        "penalty": 100,
+        "penalty": 0,
         "limit": null
       },
       "fighters-waypoint": {
@@ -542,8 +543,8 @@
             "speed": 60.0
           }
         },
-        "cost": 100,
-        "penalty": 100,
+        "cost": 50,
+        "penalty": 0,
         "limit": null
       },
       "transfer": {
@@ -557,15 +558,16 @@
             "speed": 60.0
           }
         },
-        "cost": 100,
-        "penalty": 100,
+        "cost": 50,
+        "penalty": 0,
         "limit": null
       },
       "drone": {
         "kind": {
           "Drone": {
             "jtac": {
-              "range": 16000
+              "range": 16000,
+	      "nolos": true
             },
             "plane": {
               "kind": "FixedWing",
@@ -640,7 +642,7 @@
           }
         },
         "cost": 100,
-        "penalty": 100,
+        "penalty": 0,
         "limit": null
       }
     }
@@ -996,7 +998,7 @@
             "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 20,
-            "max_drop_speed": 350
+            "max_drop_speed": 50
           }
         ],
         "repair_crate": null,
@@ -1033,6 +1035,32 @@
       {
         "path": [
           "Ground Units",
+          "MLRS Grad"
+        ],
+        "template": "DEPRGRAD",
+        "persist": "Forever",
+        "limit": 3,
+        "limit_enforce": "DeleteOldest",
+        "crates": [
+          {
+            "name": "MLRS Grad",
+            "weight": 2000,
+            "required": 2,
+            "pos_unit": null,
+            "max_drop_height_agl": 20,
+            "max_drop_speed": 50
+          }
+        ],
+        "repair_crate": null,
+        "cost": 25,
+        "logistics": null,
+        "ewr": null,
+        "jtac": null
+      },
+
+      {
+        "path": [
+          "Ground Units",
           "MLRS"
         ],
         "template": "DEPRMLRS",
@@ -1041,12 +1069,12 @@
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
-            "name": "MLRS",
+            "name": "MLRS Uragan",
             "weight": 2000,
             "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 20,
-            "max_drop_speed": 350
+            "max_drop_speed": 50
           }
         ],
         "repair_crate": null,
@@ -1071,7 +1099,7 @@
             "required": 4,
             "pos_unit": null,
             "max_drop_height_agl": 20,
-            "max_drop_speed": 350
+            "max_drop_speed": 50
           }
         ],
         "repair_crate": null,
@@ -1098,7 +1126,7 @@
             "required": 1,
             "pos_unit": null,
             "max_drop_height_agl": 20,
-            "max_drop_speed": 350
+            "max_drop_speed": 50
           }
         ],
         "repair_crate": null,
@@ -1126,7 +1154,7 @@
             "required": 4,
             "pos_unit": null,
             "max_drop_height_agl": 20,
-            "max_drop_speed": 350
+            "max_drop_speed": 50
           }
         ],
         "repair_crate": null,
@@ -1153,7 +1181,7 @@
             "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 20,
-            "max_drop_speed": 350
+            "max_drop_speed": 50 
           }
         ],
         "repair_crate": null,
@@ -1178,7 +1206,7 @@
             "required": 1,
             "pos_unit": null,
             "max_drop_height_agl": 20,
-            "max_drop_speed": 350
+            "max_drop_speed": 50
           }
         ],
         "repair_crate": null,
@@ -1376,7 +1404,7 @@
             "required": 4,
             "pos_unit": null,
             "max_drop_height_agl": 20,
-            "max_drop_speed": 350
+            "max_drop_speed": 50
           }
         ],
         "repair_crate": null,
@@ -1401,7 +1429,7 @@
             "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 20,
-            "max_drop_speed": 350
+            "max_drop_speed": 50
           }
         ],
         "repair_crate": null,
@@ -1427,7 +1455,7 @@
             "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 20,
-            "max_drop_speed": 350
+            "max_drop_speed": 50
           }
         ],
         "repair_crate": null,
@@ -1452,7 +1480,7 @@
 	     "required": 8,
 	     "pos_unit": null,
 	     "max_drop_height_agl": 20,
-	     "max_drop_speed": 10
+	     "max_drop_speed": 50
 	   }
 	   ],
 	   "repair_crate": null,
@@ -1477,7 +1505,7 @@
             "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 20,
-            "max_drop_speed": 350
+            "max_drop_speed": 50
           }
         ],
         "repair_crate": null,
@@ -1502,7 +1530,7 @@
             "required": 4,
             "pos_unit": null,
             "max_drop_height_agl": 20,
-            "max_drop_speed": 350
+            "max_drop_speed": 50
           }
         ],
         "repair_crate": null,
@@ -1529,7 +1557,7 @@
             "required": 4,
             "pos_unit": null,
             "max_drop_height_agl": 20,
-            "max_drop_speed": 350
+            "max_drop_speed": 50
           }
         ],
         "repair_crate": null,
@@ -1556,7 +1584,7 @@
             "required": 1,
             "pos_unit": null,
             "max_drop_height_agl": 20,
-            "max_drop_speed": 350
+            "max_drop_speed": 50
           }
         ],
         "repair_crate": null,
@@ -1583,7 +1611,7 @@
             "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 20,
-            "max_drop_speed": 350
+            "max_drop_speed": 50
           }
         ],
         "repair_crate": null,
