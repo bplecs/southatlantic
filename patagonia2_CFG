@@ -1186,10 +1186,36 @@
         ],
         "repair_crate": null,
         "logistics": null,
-	"cost": 5,
+	"cost": 10,
         "ewr": null,
         "jtac": null
       },
+      {
+        "path": [
+          "Ground Units",
+          "Fuel Truck"
+        ],
+        "template": "DEPRFUEL",
+        "persist": "Forever",
+        "limit": 3,
+        "limit_enforce": "DeleteOldest",
+        "crates": [
+          {
+            "name": "Fuel Truck Crate",
+            "weight": 2000,
+            "required": 2,
+            "pos_unit": null,
+            "max_drop_height_agl": 20,
+            "max_drop_speed": 50
+          }
+        ],
+        "repair_crate": null,
+        "logistics": null,
+        "cost": 10,
+        "ewr": null,
+        "jtac": null
+      },
+
       {
         "path": [
           "EWRs",
@@ -1617,6 +1643,31 @@
         "repair_crate": null,
         "logistics": null,
 	"cost": 5,
+        "ewr": null,
+        "jtac": null
+      },
+      {
+        "path": [
+          "Ground Units",
+          "Fuel Truck"
+        ],
+        "template": "DEPBFUEL",
+        "persist": "Forever",
+        "limit": 3,
+        "limit_enforce": "DeleteOldest",
+        "crates": [
+          {
+            "name": "Fuel Truck Crate",
+            "weight": 2000,
+            "required": 2,
+            "pos_unit": null,
+            "max_drop_height_agl": 20,
+            "max_drop_speed": 50
+          }
+        ],
+        "repair_crate": null,
+        "logistics": null,
+        "cost": 10,
         "ewr": null,
         "jtac": null
       },
