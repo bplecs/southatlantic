@@ -218,7 +218,7 @@
           }
         },
         "cost": 50,
-        "penalty": 50,
+        "penalty": 0,
         "limit": null
       },
       "attack-waypoint": {
@@ -250,7 +250,7 @@
           }
         },
         "cost": 100,
-        "penalty": 100,
+        "penalty": 0,
         "limit": null
       },
       "paratroops": {
@@ -295,7 +295,7 @@
           }
         },
         "cost": 100,
-        "penalty": 100,
+        "penalty": 0,
         "limit": null
       },
       "deploy-ewr": {
@@ -313,7 +313,7 @@
           }
         },
         "cost": 50,
-        "penalty": 100,
+        "penalty": 0,
         "limit": null
       },
       "repair": {
@@ -363,19 +363,19 @@
             }
           }
         },
-        "cost": 25,
-        "penalty": 25,
+        "cost": 35,
+        "penalty": 0,
         "limit": null
       },
       "move": {
         "kind": {
           "Move": {
-            "troop": 1000,
-            "deployable": 1000
+            "troop": 5000,
+            "deployable": 5000
           }
         },
         "cost": 10,
-        "penalty": 25,
+        "penalty": 0,
         "limit": null
       },
       "fighters": {
@@ -390,7 +390,7 @@
           }
         },
         "cost": 100,
-        "penalty": 100,
+        "penalty": 0,
         "limit": null
       },
       "awacs": {
@@ -451,7 +451,7 @@
           }
         },
         "cost": 100,
-        "penalty": 100,
+        "penalty": 0,
         "limit": null
       },
       "basket-tanker": {
@@ -466,7 +466,7 @@
           }
         },
         "cost": 50,
-        "penalty": 50,
+        "penalty": 0,
         "limit": null
       },
       "paratroops": {
@@ -511,7 +511,7 @@
           }
         },
         "cost": 100,
-        "penalty": 100,
+        "penalty": 0,
         "limit": null
       },
       "deploy-ewr": {
@@ -529,7 +529,7 @@
           }
         },
         "cost": 50,
-        "penalty": 100,
+        "penalty": 0,
         "limit": null
       },
       "repair": {
@@ -579,8 +579,8 @@
             }
           }
         },
-        "cost": 25,
-        "penalty": 25,
+        "cost": 35,
+        "penalty": 0,
         "limit": null
       },
       "boom-tanker": {
@@ -595,18 +595,18 @@
           }
         },
         "cost": 50,
-        "penalty": 50,
+        "penalty": 0,
         "limit": null
       },
       "move": {
         "kind": {
           "Move": {
-            "troop": 1000,
-            "deployable": 1000
+            "troop": 5000,
+            "deployable": 5000
           }
         },
         "cost": 10,
-        "penalty": 25,
+        "penalty": 0,
         "limit": null
       },
       "fighters": {
@@ -621,7 +621,7 @@
           }
         },
         "cost": 100,
-        "penalty": 100,
+        "penalty": 0,
         "limit": null
       },
       "awacs": {
@@ -1061,7 +1061,7 @@
       {
         "path": [
           "Ground Units",
-          "MLRS"
+          "MLRS Uragan"
         ],
         "template": "DEPRMLRS",
         "persist": "Forever",
