@@ -1,0 +1,186 @@
+[2024-02-13T01:11:48Z INFO  bftools::mission_edit] cracking open: "southatlantic_base.miz"
+[2024-02-13T01:11:48Z INFO  bftools::mission_edit] processing options
+[2024-02-13T01:11:48Z INFO  bftools::mission_edit] processing mission
+[2024-02-13T01:11:48Z INFO  bftools::mission_edit] processing warehouses
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Ushuaia
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Lago San Martin
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Campo Banista
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Mount Darwin
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Estancia la Irene
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective OHiggins
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Glaciar Gaea
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Upsala
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Portillo
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective San Pablo
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective El Chalten
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Opuesta Oscura
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Tuck
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Tolhuin
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Locksley
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective PampaGuanaco
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Yendegaia
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Rio Bravo
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Ventisquero Chico
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective SanJulian
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Media
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Laguna Colorada
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Piedrabuena
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Bahia del Bote
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Cuevas
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Las Horquetas
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Chico
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Gobernador Moyano
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Corpen
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Tres Lagos Capilla
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Foothills
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective RioGrande
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective PuntaArenas
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Gregores
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Isla Dawson
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Vaderiana
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Manticore
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Torres del Paine
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Las Vegas
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Moreno
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Rio Pelque
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective RioGallegos
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Drake
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Morro Chico
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Pali Aike
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Arroyo El Lechuza
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Porvenir
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective PuertoHarris
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Agua Fresca
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Bandit
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Timaukel
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Quemado
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective FrancoBianco
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective San Sebastian
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Griffin
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective PuertoSantaCruz
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Cancha Carrera
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Gamero
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Valley
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective PuertoNatales
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Almirante
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective RioTurbio
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Delta
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Cliffhanger
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective San Ramon
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Le Marchand
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective PuertoWilliams
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective El Cerrito
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Rio Bote
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective El Calafate
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Karukinka
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Punta Catalina
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Espora
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Vientos
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Rio Cerro
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Escarpada
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Estancia Sara
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Dungeness
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Condor
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Glaciar Lucia
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Brazo Maipu
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Tiger
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Viedma
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Puerto Sara
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Domaike
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Agua Santa
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Laguna Salada
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Lago Viedma
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] added objective Estancia Flores
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] cracking open: "templates/weapons.southatlantic.miz"
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] processing options
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] processing mission
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] processing warehouses
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] adding payload template: A-10A
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] adding payload template: F-5E-3
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] adding payload template: A-10C_2
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] adding payload template: F-15ESE
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] adding payload template: F-14B
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] adding payload template: MB-339A
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] adding payload template: Mirage-F1EE
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] adding payload template: FA-18C_hornet
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] adding payload template: A-10C
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] adding payload template: F-16C_50
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] adding payload template: AV8BNA
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] adding payload template: C-101CC
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] adding payload template: F-15C
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] adding payload template: AH-64D_BLK_II
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] adding payload template: SA342L
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] adding payload template: UH-1H
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] adding payload template: SA342M
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] adding payload template: F-15ESE
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] adding payload template: L-39ZA
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] adding payload template: MiG-29A
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] adding payload template: M-2000C
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] adding payload template: JF-17
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] adding payload template: Su-25T
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] adding payload template: Su-25
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] adding payload template: AJS37
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] adding payload template: Su-33
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] adding payload template: MiG-21Bis
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] adding payload template: J-11A
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] adding payload template: MiG-29S
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] adding payload template: Su-27
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] adding payload template: Mi-8MT
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] adding payload template: Ka-50_3
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] adding payload template: Ka-50
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] adding payload template: Mi-24P
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] cracking open: "templates/warehouse.southatlantic.miz"
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] processing options
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] processing warehouses
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] processing mission
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] replacing slots with template payloads
+[2024-02-13T01:11:49Z WARN  bftools::mission_edit] no payload table for F-15E
+[2024-02-13T01:11:49Z WARN  bftools::mission_edit] no payload table for F-15E
+[2024-02-13T01:11:49Z WARN  bftools::mission_edit] no payload table for F-15E
+[2024-02-13T01:11:49Z WARN  bftools::mission_edit] no payload table for F-15E
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] replaced 226 radio/payloads for Mi-24P
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] replaced 75 radio/payloads for FA-18C_hornet
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] replaced 4 radio/payloads for A-10C
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] replaced 28 radio/payloads for JF-17
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] replaced 223 radio/payloads for Ka-50_3
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] replaced 34 radio/payloads for F-14B
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] replaced 59 radio/payloads for AV8BNA
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] replaced 15 radio/payloads for Su-25
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] replaced 46 radio/payloads for MiG-21Bis
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] replaced 225 radio/payloads for Mi-8MT
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] replaced 218 radio/payloads for UH-1H
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] replaced 108 radio/payloads for SA342M
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] replaced 79 radio/payloads for F-16C_50
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] replaced 33 radio/payloads for F-15ESE
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] replaced 50 radio/payloads for A-10C_2
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] replaced 14 radio/payloads for Ka-50
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] replaced 49 radio/payloads for M-2000C
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] replaced 7 radio/payloads for A-10A
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] replaced 20 radio/payloads for MiG-29A
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] replaced 110 radio/payloads for SA342L
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] replaced 4 radio/payloads for F-15E
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] replaced 51 radio/payloads for Su-25T
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] replaced 22 radio/payloads for MiG-29S
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] replaced 80 radio/payloads for Su-27
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] replaced 220 radio/payloads for AH-64D_BLK_II
+[2024-02-13T01:11:49Z INFO  bftools::mission_edit] wrote serialized mission to mission file.
+[2024-02-13T01:11:50Z INFO  bftools::mission_edit] wrote serialized warehouses to warehouse file.
+[2024-02-13T01:11:50Z INFO  bftools::mission_edit] cracking open: "templates/options.southatlantic.miz"
+[2024-02-13T01:11:50Z INFO  bftools::mission_edit] replaced options file from "templates/options.southatlantic.miz"
+[2024-02-13T01:11:50Z INFO  bftools::mission_edit] saving finalized mission to "southatlantic_final.miz"
+[2024-02-13T01:11:50Z INFO  bftools::mission_edit] repacking current miz to: "southatlantic_final.miz"
+[2024-02-13T01:11:50Z INFO  bftools::mission_edit] added "southatlantic_base\\options" to archive
+[2024-02-13T01:11:50Z INFO  bftools::mission_edit] added "southatlantic_base\\Scripts/World/birds.lua" to archive
+[2024-02-13T01:11:50Z INFO  bftools::mission_edit] added "southatlantic_base\\Config/View/SnapViewsDefault.lua" to archive
+[2024-02-13T01:11:50Z INFO  bftools::mission_edit] added "southatlantic_base\\theatre" to archive
+[2024-02-13T01:11:50Z INFO  bftools::mission_edit] added "southatlantic_base\\l10n/DEFAULT/mapResource" to archive
+[2024-02-13T01:11:50Z INFO  bftools::mission_edit] added "southatlantic_base\\Avionics/F-16C_50/1/UHF_RADIO/SETTINGS.lua" to archive
+[2024-02-13T01:11:50Z INFO  bftools::mission_edit] added "southatlantic_base\\mission" to archive
+[2024-02-13T01:11:50Z INFO  bftools::mission_edit] added "southatlantic_base\\l10n/DEFAULT/mizinit.lua" to archive
+[2024-02-13T01:11:50Z INFO  bftools::mission_edit] added "southatlantic_base\\Config/View/Server.lua" to archive
+[2024-02-13T01:11:50Z INFO  bftools::mission_edit] added "southatlantic_base\\l10n/DEFAULT/dictionary" to archive
+[2024-02-13T01:11:50Z INFO  bftools::mission_edit] added "southatlantic_base\\Config/View/View.lua" to archive
+[2024-02-13T01:11:50Z INFO  bftools::mission_edit] added "southatlantic_base\\Scripts/World/GPS_GNSS.lua" to archive
+[2024-02-13T01:11:50Z INFO  bftools::mission_edit] added "southatlantic_base\\Avionics/F-16C_50/1/VHF_RADIO/SETTINGS.lua" to archive
+[2024-02-13T01:11:51Z INFO  bftools::mission_edit] added "southatlantic_base\\warehouses" to archive
+[2024-02-13T01:11:51Z INFO  bftools::mission_edit] "southatlantic_final.miz" good to go!
