@@ -114,6 +114,7 @@
     "F-15ESE": 36000,
     "AV8BNA": 36000,
     "MB-339A": 9000,
+    "MosquitoFBMkVI": 9000,
     "J-11A": 36000,
     "Tu-22M3": 36000,
     "A-50": 0,
@@ -151,6 +152,7 @@
     "FA-18C_hornet": "Standard",
     "A-10C": "Attack",
     "SA342M": "Logistics",
+    "MosquitoFBMkVI": "Logistics",
     "A-10A": "Attack",
     "AJS37": "Attack",
     "Mirage-F1CE": "Intercept",
@@ -675,6 +677,11 @@
     },
     "MB-339A": {
       "troop_slots": 0,
+      "crate_slots": 1,
+      "total_slots": 1
+    },
+   "MosquitoFBMkVI": {
+      "troop_slots": 1,
       "crate_slots": 1,
       "total_slots": 1
     },
@@ -1841,6 +1848,9 @@
     ]
   },
   "unit_classification": {
+    "MosquitoFBMkVI": [
+      "Aircraft"
+    ],
     "Mirage-F1EE": [
       "Aircraft"
     ],
