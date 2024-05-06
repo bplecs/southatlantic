@@ -209,21 +209,52 @@
         "penalty": null,
         "limit": null
       },
-      "tanker": {
+      "russian-tanker": {
         "kind": {
           "Tanker": {
             "kind": "FixedWing",
             "duration": 8,
             "template": "RTANKER",
-            "altitude": 10000.0,
+            "altitude": 8000.0,
             "altitude_typ": "BARO",
-            "speed": 180.0
+            "speed": 400.0
           }
         },
         "cost": 50,
         "penalty": 0,
         "limit": null
       },
+      "basket-tanker": {
+        "kind": {
+          "Tanker": {
+            "kind": "FixedWing",
+            "duration": 8,
+            "template": "RBASKETTANKER",
+            "altitude": 8000.0,
+            "altitude_typ": "BARO",
+            "speed": 400.0
+          }
+        },
+        "cost": 50,
+        "penalty": 0,
+        "limit": null
+      },
+      "boom-tanker": {
+        "kind": {
+          "Tanker": {
+            "kind": "FixedWing",
+            "duration": 8,
+            "template": "RBOOMTANKER",
+            "altitude": 8000.0,
+            "altitude_typ": "BARO",
+            "speed": 350.0
+          }
+        },
+        "cost": 50,
+        "penalty": 0,
+        "limit": null
+      },
+
       "attack-waypoint": {
         "kind": "AttackersWaypoint",
         "cost": 5,
@@ -463,7 +494,7 @@
             "kind": "FixedWing",
             "duration": 8,
             "template": "BBASKETTANKER",
-            "altitude": 10000.0,
+            "altitude": 8000.0,
             "altitude_typ": "BARO",
             "speed": 400.0
           }
@@ -592,7 +623,7 @@
             "kind": "FixedWing",
             "duration": 8,
             "template": "BBOOMTANKER",
-            "altitude": 10000.0,
+            "altitude": 8000.0,
             "altitude_typ": "BARO",
             "speed": 350.0
           }
