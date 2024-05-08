@@ -14,13 +14,13 @@
   "repair_time": 1800,
   "shutdown": 11,
   "points": {
-    "new_player_join": 10,
+    "new_player_join": 20,
     "air_kill": 25,
     "ground_kill": 2,
     "lr_sam_bonus": 5,
-    "logistics_repair": 0,
-    "logistics_transfer": 0,
-    "capture": 0 
+    "logistics_repair": 50,
+    "logistics_transfer": 50,
+    "capture": 50
   },
   "repair_crate": {
     "Red": {
@@ -42,7 +42,7 @@
   },
   "warehouse": {
     "hub_max": 10,
-    "airbase_max": 2,
+    "airbase_max": 3,
     "tick": 10,
     "ticks_per_delivery": 6,
     "supply_transfer_size": 25,
@@ -130,7 +130,7 @@
   },
   "threatened_cooldown": 300,
   "crate_load_distance": 50,
-  "crate_spread": 1000,
+  "crate_spread": 1500,
   "side_switches": 1,
   "max_crates": 8,
   "life_types": {
