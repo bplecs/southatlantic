@@ -800,7 +800,7 @@
           "Radar SAMs",
           "SA 2 Devina"
         ],
-        "template": "DEPSA2",
+        "template": "DEPSA11",
         "persist": "Forever",
         "limit": 3,
         "limit_enforce": "DeleteOldest",
@@ -809,7 +809,7 @@
             "name": "SA2 Launcher",
             "weight": 2000,
             "required": 1,
-            "pos_unit": "SA-2 LN",
+            "pos_unit": "SA-11 Buk LN 9A310M1",
             "max_drop_height_agl": 10,
             "max_drop_speed": 50
           },
@@ -817,7 +817,7 @@
             "name": "SA2 Search Radar",
             "weight": 2000,
             "required": 1,
-            "pos_unit": "SA-2/3/5 P19 Flat Face SR",
+            "pos_unit": "SA-11 Buk LN 9A310M1",
             "max_drop_height_agl": 10,
             "max_drop_speed": 50
           },
@@ -825,7 +825,7 @@
             "name": "SA2 Track Radar",
             "weight": 2000,
             "required": 1,
-            "pos_unit": "SA-2 S-75 Fan Song TR",
+            "pos_unit": "SA-11 Buk LN 9A310M1",
             "max_drop_height_agl": 10,
             "max_drop_speed": 50
           },
@@ -833,7 +833,7 @@
             "name": "SA2 RF",
             "weight": 2000,
             "required": 1,
-            "pos_unit": "SA-2 S-75 RD-75 Amazonka RF",
+            "pos_unit": "SA-11 Buk LN 9A310M1",
             "max_drop_height_agl": 10,
             "max_drop_speed": 50
           }
@@ -2008,6 +2008,10 @@
       "Logistics",
       "Unarmed"
     ],
+    "Hercules_Container_Parachute_Static": [
+      "Logistics",
+      "Unarmed"
+      ],
     "ammo_cargo": [
       "Logistics",
       "Unarmed"
@@ -2181,6 +2185,12 @@
       "SmallArms",
       "Driveable"
     ],
+    "M1126 Stryker ICV": [
+      "APC",
+      "SR",
+      "SmallArms",
+      "Driveable"
+      ],
     "Soldier stinger": [
       "SAM",
       "Infantry",
@@ -2238,6 +2248,18 @@
       "LightCannon",
       "Driveable"
     ],
+    "BTR-80": [
+      "APC",
+      "SR",
+      "LightCannon",
+      "Driveable",
+      ],
+    "BTR-82A": [
+      "APC",
+      "SR",
+      "LightCannon",
+      "Driveable",
+      ],
     "p-19 s-125 sr": [
       "SAM",
       "LR",
@@ -2300,6 +2322,20 @@
     "Mi-8MT": [
       "Helicopter"
     ],
+    "M48 Chaparral": [
+      "SAM",
+      "SR",
+      "IRGuided",
+      "Launcher",
+      "Driveable"
+    ],
+    "SA-18 Igla manpad": [
+      "SAM",
+      "SR",
+      "IRGuided",
+      "Launcher",
+      "Driveable"
+      ],
     "SA-18 Igla-S manpad": [
       "SAM",
       "SR",
@@ -2377,6 +2413,9 @@
       "Logistics",
       "Unarmed"
     ],
+    "Airshow_Cone": [
+      "Unarmed"
+      ],
     "bofors40": [
       "AAA",
       "LR"
@@ -2482,6 +2521,18 @@
       "LightCannon",
       "Driveable"
     ],
+    "HL_KORD": [
+      "SR",
+      "SmallArms",
+      "Driveable"
+      ],
+    "Leopard1A3": [
+      "Armor",
+      "MR",
+      "HeavyCannon",
+      "SmallArms",
+      "Driveable"
+      ],
     "Leopard-2": [
       "Armor",
       "MR",
