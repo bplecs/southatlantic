@@ -800,7 +800,7 @@
           "Radar SAMs",
           "SA 2 Devina"
         ],
-        "template": "DEPSA11",
+        "template": "DEPSA2",
         "persist": "Forever",
         "limit": 3,
         "limit_enforce": "DeleteOldest",
