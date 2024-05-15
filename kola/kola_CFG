@@ -806,34 +806,10 @@
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
-            "name": "SA2 Launcher",
+            "name": "SA-2 Divina",
             "weight": 2000,
-            "required": 1,
-            "pos_unit": "SA-11 Buk LN 9A310M1",
-            "max_drop_height_agl": 10,
-            "max_drop_speed": 50
-          },
-          {
-            "name": "SA2 Search Radar",
-            "weight": 2000,
-            "required": 1,
-            "pos_unit": "SA-11 Buk LN 9A310M1",
-            "max_drop_height_agl": 10,
-            "max_drop_speed": 50
-          },
-          {
-            "name": "SA2 Track Radar",
-            "weight": 2000,
-            "required": 1,
-            "pos_unit": "SA-11 Buk LN 9A310M1",
-            "max_drop_height_agl": 10,
-            "max_drop_speed": 50
-          },
-          {
-            "name": "SA2 RF",
-            "weight": 2000,
-            "required": 1,
-            "pos_unit": "SA-11 Buk LN 9A310M1",
+            "required": 4,
+            "pos_unit": null,
             "max_drop_height_agl": 10,
             "max_drop_speed": 50
           }
