@@ -2178,6 +2178,13 @@
       "Artillery",
       "Driveable"
     ],
+    "VAB_Mephisto": [
+      "APC",
+      "MR",
+      "ATGM",
+      "SmallArms",
+      "Driveable"
+      ],
     "M1134 Stryker ATGM": [
       "APC",
       "MR",
