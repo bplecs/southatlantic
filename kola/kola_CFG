@@ -1,8 +1,7 @@
 {
   "admins": {
     "e53316fe86d249582f3ae237c15052a1": "Gordy",
-    "f279deb7a6b62c96a78eca3ddb2bd8d0": "REAPER 32 | EvilKipper", 
-    "69d60e1a0fe1c86bc3e81792458dba61": "<64>Cookie"
+    "f279deb7a6b62c96a78eca3ddb2bd8d0": "REAPER 32 | EvilKipper"
   },
   "rules": { 
     "actions": "AlwaysAllowed",
