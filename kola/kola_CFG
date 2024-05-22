@@ -1914,6 +1914,9 @@
     ]
   },
   "unit_classification": {
+    "F-4E-45MC": [
+      "Aircraft"
+      ],
     "MosquitoFBMkVI": [
       "Aircraft"
     ],
