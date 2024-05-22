@@ -135,6 +135,7 @@
   "max_crates": 8,
   "life_types": {
     "Mirage-F1EE": "Intercept",
+    "F-4E-45MC": "Standard",
     "C-101CC": "Recon",
     "MiG-29A": "Standard",
     "MiG-29S": "Standard",
