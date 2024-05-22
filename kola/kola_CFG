@@ -74,6 +74,7 @@
   "artillery_mission_range": 32000,
   "slow_timed_events_freq": 10,
   "threatened_distance": {
+    "F-4E-45MC": 21600,
     "Mirage-F1EE": 14000,
     "MosquitoFBMkVI": 9000,
     "C-101CC": 10000,
