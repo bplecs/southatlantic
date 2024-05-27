@@ -39,6 +39,14 @@
       "max_drop_speed": 50
     }
   },
+  "extra_fixed_wing_objectives": [
+    "Lakselv",
+    "Kemi Tornio",
+    "Bodo",
+    "Murmansk",
+    "Kiruna",
+    "Olenegorsk"
+    ]
   "warehouse": {
     "hub_max": 10,
     "airbase_max": 3,
