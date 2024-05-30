@@ -46,7 +46,7 @@
     "Murmansk",
     "Kiruna",
     "Olenegorsk"
-    ]
+    ],
   "warehouse": {
     "hub_max": 10,
     "airbase_max": 3,
