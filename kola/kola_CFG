@@ -40,12 +40,7 @@
     }
   },
   "extra_fixed_wing_objectives": [
-    "Lakselv",
-    "Kemi Tornio",
-    "Bodo",
-    "Murmansk",
-    "Kiruna",
-    "Olenegorsk"
+    "Bodo"
     ],
   "warehouse": {
     "hub_max": 10,
@@ -143,7 +138,7 @@
   "max_crates": 8,
   "life_types": {
     "Mirage-F1EE": "Intercept",
-    "F-4E-45MC": "Standard",
+    "F-4E-45MC": "Intercept",
     "C-101CC": "Recon",
     "MiG-29A": "Standard",
     "MiG-29S": "Standard",
