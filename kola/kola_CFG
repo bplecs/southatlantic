@@ -91,6 +91,7 @@
     "MiG-19P": 9000,
     "M-2000C": 50000,
     "Mi-8MT": 10000,
+    "OH58D": 14000,
     "Ka-50_3": 14400,
     "F-15C": 36000,
     "F-15E": 36000,
@@ -169,6 +170,7 @@
     "A-10C_2": "Attack",
     "SA342L": "Logistics",
     "AH-64D_BLK_II": "Attack",
+    "OH58D": "Recon",
     "UH-1H": "Logistics",
     "L-39ZA": "Recon",
     "F-5E-3": "Intercept",
@@ -2578,6 +2580,9 @@
       "Unarmed"
       ],
     "SA342M": [
+      "Helicopter"
+    ],
+    "OH58D": [
       "Helicopter"
     ],
     "Su-33": [
