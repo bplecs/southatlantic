@@ -414,7 +414,7 @@
             "deployable": 5000
           }
         },
-        "cost": 10,
+        "cost": 5,
         "penalty": 0,
         "limit": null
       },
