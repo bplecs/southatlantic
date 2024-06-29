@@ -1100,7 +1100,7 @@
 	  {
 	    "name": "Howtz Battery Crate",
 	    "weight": 1500,
-	    "required": 8,
+	    "required": 4,
 	    "pos_unit": null,
 	    "max_drop_height_agl": 20,
 	    "max_drop_speed": 50
@@ -1108,7 +1108,7 @@
 	],
 	"repair_crate": null,
 	"logistics": null,
-	"cost": 150,
+	"cost": 100,
 	"ewr": null,
 	"jtac": null
       },
@@ -1583,7 +1583,7 @@
 	   {
 	     "name": "Howtz Battery Crate",
 	     "weight": 800,
-	     "required": 8,
+	     "required": 4,
 	     "pos_unit": null,
 	     "max_drop_height_agl": 20,
 	     "max_drop_speed": 50
@@ -1591,7 +1591,7 @@
 	   ],
 	   "repair_crate": null,
 	   "logistics": null,
-	   "cost": 150,
+	   "cost": 100,
 	   "ewr": null,
 	   "jtac": null
       },
