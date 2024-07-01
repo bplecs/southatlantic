@@ -10,7 +10,7 @@
     "jtac": "AlwaysAllowed",
     "ca": "AlwaysAllowed"
   },
-  "repair_time": 1800,
+  "repair_time": 2400,
   "shutdown": 11,
   "points": {
     "new_player_join": 20,
@@ -223,7 +223,7 @@
             "template": "RTANKER",
             "altitude": 8000.0,
             "altitude_typ": "BARO",
-            "speed": 400.0
+            "speed": 700.0
           }
         },
         "cost": 50,
@@ -238,7 +238,7 @@
             "template": "RBASKETTANKER",
             "altitude": 8000.0,
             "altitude_typ": "BARO",
-            "speed": 400.0
+            "speed": 700.0
           }
         },
         "cost": 50,
@@ -253,7 +253,7 @@
             "template": "RBOOMTANKER",
             "altitude": 8000.0,
             "altitude_typ": "BARO",
-            "speed": 350.0
+            "speed": 700.0
           }
         },
         "cost": 50,
@@ -285,7 +285,7 @@
               "template": "RBOMBER",
               "altitude": 12000.0,
               "altitude_typ": "BARO",
-              "speed": 500.0
+              "speed": 1200.0
             }
           }
         },
@@ -301,9 +301,9 @@
               "kind": "Helicopter",
               "duration": null,
               "template": "RTROOPCARRIER",
-              "altitude": 800.0,
+              "altitude": 400.0,
               "altitude_typ": "RADIO",
-              "speed": 70.0
+              "speed": 200.0
             }
           }
         },
@@ -329,9 +329,9 @@
             "kind": "Helicopter",
             "duration": 2,
             "template": "RATTACKHELI",
-            "altitude": 800.0,
+            "altitude": 400.0,
             "altitude_typ": "RADIO",
-            "speed": 100.0
+            "speed": 200.0
           }
         },
         "cost": 100,
@@ -346,9 +346,9 @@
               "kind": "Helicopter",
               "duration": null,
               "template": "RCARGOCARRIER",
-              "altitude": 800.0,
+              "altitude": 400.0,
               "altitude_typ": "RADIO",
-              "speed": 100.0
+              "speed": 200.0
             }
           }
         },
@@ -362,9 +362,9 @@
             "kind": "Helicopter",
             "duration": null,
             "template": "RCARGOCARRIER",
-            "altitude": 800.0,
+            "altitude": 400.0,
             "altitude_typ": "RADIO",
-            "speed": 100.0
+            "speed": 200.0
           }
         },
         "cost": 50,
@@ -377,9 +377,9 @@
             "kind": "Helicopter",
             "duration": null,
             "template": "RCARGOCARRIER",
-            "altitude": 800.0,
+            "altitude": 400.0,
             "altitude_typ": "RADIO",
-            "speed": 100.0
+            "speed": 200.0
           }
         },
         "cost": 50,
@@ -399,7 +399,7 @@
               "template": "RDRONE",
               "altitude": 6000.0,
               "altitude_typ": "BARO",
-              "speed": 100.0
+              "speed": 400.0
             }
           }
         },
@@ -426,7 +426,7 @@
             "template": "RFIGHTERS",
             "altitude": 10000.0,
             "altitude_typ": "BARO",
-            "speed": 500.0
+            "speed": 1000.0
           }
         },
         "cost": 100,
@@ -445,7 +445,7 @@
             "template": "RAWACS",
             "altitude": 11000.0,
             "altitude_typ": "BARO",
-            "speed": 300.0,
+            "speed": 700.0,
 	    "freq" : 125000000
 	    }
           }
@@ -486,7 +486,7 @@
               "template": "BBOMBER",
               "altitude": 12000.0,
               "altitude_typ": "BARO",
-              "speed": 500.0
+              "speed": 1200.0
             }
           }
         },
@@ -502,7 +502,7 @@
             "template": "BBASKETTANKER",
             "altitude": 8000.0,
             "altitude_typ": "BARO",
-            "speed": 400.0
+            "speed": 700.0
           }
         },
         "cost": 50,
@@ -517,9 +517,9 @@
               "kind": "Helicopter",
               "duration": null,
               "template": "BTROOPCARRIER",
-              "altitude": 800.0,
+              "altitude": 400.0,
               "altitude_typ": "RADIO",
-              "speed": 100.0
+              "speed": 200.0
             }
           }
         },
@@ -545,9 +545,9 @@
             "kind": "Helicopter",
             "duration": 2,
             "template": "BATTACKHELI",
-            "altitude": 800.0,
+            "altitude": 400.0,
             "altitude_typ": "RADIO",
-            "speed": 100.0
+            "speed": 200.0
           }
         },
         "cost": 100,
@@ -562,9 +562,9 @@
               "kind": "Helicopter",
               "duration": null,
               "template": "BCARGOCARRIER",
-              "altitude": 800.0,
+              "altitude": 400.0,
               "altitude_typ": "RADIO",
-              "speed": 100.0
+              "speed": 200.0
             }
           }
         },
@@ -578,9 +578,9 @@
             "kind": "Helicopter",
             "duration": null,
             "template": "BCARGOCARRIER",
-            "altitude": 800.0,
+            "altitude": 400.0,
             "altitude_typ": "RADIO",
-            "speed": 100.0
+            "speed": 200.0
           }
         },
         "cost": 50,
@@ -593,9 +593,9 @@
             "kind": "Helicopter",
             "duration": null,
             "template": "BCARGOCARRIER",
-            "altitude": 800.0,
+            "altitude": 400.0,
             "altitude_typ": "RADIO",
-            "speed": 100.0
+            "speed": 200.0
           }
         },
         "cost": 50,
@@ -615,7 +615,7 @@
               "template": "BDRONE",
               "altitude": 6000.0,
               "altitude_typ": "BARO",
-              "speed": 200.0
+              "speed": 400.0
             }
           }
         },
@@ -631,7 +631,7 @@
             "template": "BBOOMTANKER",
             "altitude": 8000.0,
             "altitude_typ": "BARO",
-            "speed": 350.0
+            "speed": 700.0
           }
         },
         "cost": 50,
@@ -657,7 +657,7 @@
             "template": "BFIGHTERS",
             "altitude": 10000.0,
             "altitude_typ": "BARO",
-            "speed": 500.0
+            "speed": 1000.0
           }
         },
         "cost": 100,
