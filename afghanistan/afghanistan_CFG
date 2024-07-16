@@ -40,8 +40,6 @@
     }
   },
   "extra_fixed_wing_objectives": [
-    "Bodo",
-    "Jokkmokk"
     ],
   "warehouse": {
     "hub_max": 10,
