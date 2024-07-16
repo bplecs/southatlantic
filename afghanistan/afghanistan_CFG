@@ -2182,6 +2182,15 @@
       "SmallArms",
       "Driveable"
     ],
+    "M-113": [
+      "APC",
+      "SmallArms",
+      "Driveable"
+    ],
+    "tacr2a": [ 
+      "AAA",
+      "SR"
+    ] 
     "M1126 Stryker ICV": [
       "APC",
       "SR",
