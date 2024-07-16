@@ -2065,6 +2065,10 @@
       "Artillery",
       "Driveable"
     ],
+    "tt_B8M1": [
+      "Artillery",
+      "Driveable"
+      ],
     "MLRS": [
       "Artillery",
       "Driveable"
@@ -2231,6 +2235,14 @@
       "Unarmed",
       "Driveable"
     ],
+    "Ural-375 ZU-23 Insurgent": [
+      "AAA",
+      "SR"
+      ],
+    "Ural-375 ZU-23": [
+      "AAA",
+      "SR"
+      ],
     "Mi-24P": [
       "Helicopter"
     ],
