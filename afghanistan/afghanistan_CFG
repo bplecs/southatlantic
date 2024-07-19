@@ -11,13 +11,13 @@
     "ca": "AlwaysAllowed"
   },
   "repair_time": 2400,
-  "shutdown": 11,
+  "shutdown": 13,
   "points": {
     "new_player_join": 20,
     "air_kill": 25,
     "ground_kill": 2,
     "lr_sam_bonus": 5,
-    "logistics_repair": 50,
+    "logistics_repair": 30,
     "logistics_transfer": 50,
     "capture": 50
   },
