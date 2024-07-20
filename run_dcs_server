@@ -9,7 +9,7 @@ LOGDIR="${INSTANCEDIR}/Logs"
 LOCKFILE="${INSTANCEDIR}/dcs.lock"
 
 # Default command to start DCS server
-LAUNCH_DCS="cd ${INSTALLDIR} && ${INSTALLDIR}/DCS_server.exe"
+LAUNCH_DCS="${INSTALLDIR}/DCS_server.exe"
 
 # Time in seconds to wait between checking if server is still running
 SLEEPTIME=60 
@@ -19,8 +19,9 @@ while [ 1 ]
 
 	if [ ! -f "${LOCKFILE}" ] 
 		then
-		${LAUNCH_DCS}
+		date
+		echo "No lock file.  Starting server."
+		"${LAUNCH_DCS}"
 	else
 		sleep $SLEEPTIME
-
 	done
