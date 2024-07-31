@@ -11,7 +11,7 @@
     "ca": "AlwaysAllowed"
   },
   "repair_time": 2400,
-  "shutdown": 11,
+  "shutdown": 14,
   "points": {
     "new_player_join": 20,
     "air_kill": 25,
