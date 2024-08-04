@@ -2227,12 +2227,71 @@
       "SR",
       "SmallArms"
     ],
+    "Infantry AK Ins": [
+      "Infantry",
+      "SR",
+      "SmallArms"
+    ]
     "Hawk pcp": [
       "SAM",
       "LR",
       "RadarGuided",
       "ControlUnit"
     ],
+    "RLS_19J6": [
+      "SAM",
+      "LR",
+      "RadarGuided",
+      "SearchRadar"
+      ],
+    "Patriot cp": [ 
+      "SAM", 
+      "LR",
+      "ControlUnit",
+      "RadarGuided"
+      ],
+    "Patriot EPP": [ 
+      "SAM",
+      "LR",
+      "RadarGuided"
+      ],
+    "Patriot ln": [ 
+      "LR",
+      "SAM",
+      "Launcher",
+      "RadarGuided"
+      ],
+    "Patriot AMG": [ 
+      "LR",
+      "SAM",
+      "RadarGuided",
+      "ControlUnit"
+      ],
+    "Patriot str": [ 
+      "LR",
+      "SAM",
+      "SearchRadar",
+      "TrackRadar",
+      "RadarGuided"
+      ],
+    "Patriot ECS": [
+      "LR",
+      "SAM",
+      "RadarGuided",
+      "ControlUnit"
+      ],
+    "S-200 Launcher": [
+      "LR",
+      "SAM",
+      "Launcher",
+      "RadarGuided"
+      ],
+    "RPC_5N62V": [
+      "LR",
+      "SAM",
+      "TrackRadar",
+      "RadarGuided"
+      ],
     "ZU-23 Emplacement Closed": [
       "AAA",
       "SR"
@@ -2467,6 +2526,7 @@
       "SR",
       "SmallArms"
     ],
+    ]
     "SA342L": [
       "Helicopter"
     ],
