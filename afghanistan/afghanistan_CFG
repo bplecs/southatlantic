@@ -2311,6 +2311,12 @@
       "RadarGuided",
       "SearchRadar"
       ],
+    "S-300PS 40B6MD sr": [
+      "LR",
+      "SAM",
+      "RadarGuided",
+      "SearchRadar"
+    ],
     "S-300PS 5P85D ln": [
       "LR",
       "SAM",
