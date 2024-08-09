@@ -2293,6 +2293,41 @@
       "Launcher",
       "RadarGuided"
       ],
+    "S-300PS 40B6M tr": [
+      "LR",
+      "SAM",
+      "RadarGuided",
+      "TrackRadar"
+      ],
+    "S-300PS 54K6 cp": [
+      "LR",
+      "SAM",
+      "RadarGuided",
+      "ControlUnit"
+      ],
+    "S-300PS 64H6E sr": [
+      "LR",
+      "SAM",
+      "RadarGuided",
+      "SearchRadar"
+      ],
+    "S-300PS 5P85D ln": [
+      "LR",
+      "SAM",
+      "RadarGuided",
+      "Launcher"
+      ],
+    "S-300PS 5P85C ln": [
+      "LR",
+      "SAM",
+      "RadarGuided",
+      "Launcher"
+      ],
+    "generator_5i57",
+      "LR",
+      "SAM",
+      "RadarGuided"
+      ],
     "RPC_5N62V": [
       "LR",
       "SAM",
