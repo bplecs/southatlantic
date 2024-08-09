@@ -2323,7 +2323,7 @@
       "RadarGuided",
       "Launcher"
       ],
-    "generator_5i57",
+    "generator_5i57": [
       "LR",
       "SAM",
       "RadarGuided"
