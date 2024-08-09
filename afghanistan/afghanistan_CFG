@@ -110,6 +110,7 @@
     "SA342L": 9000,
     "AH-64D_BLK_II": 14000,
     "UH-1H": 9000,
+    "CH-47Fbl1": 9000,
     "L-39ZA": 9000,
     "F-5E-3": 14000,
     "Yak-52": 0,
@@ -171,6 +172,7 @@
     "AH-64D_BLK_II": "Attack",
     "OH58D": "Recon",
     "UH-1H": "Logistics",
+    "CH-47Fbl1": "Logistics",
     "L-39ZA": "Recon",
     "F-5E-3": "Intercept",
     "Yak-52": "Recon",
@@ -687,6 +689,11 @@
     }
   },
   "cargo": {
+    "CH-47Fbl1": {
+      "troop_slots": 4,
+      "crate_slots": 4,
+      "total_slots": 4
+      },
     "UH-1H": {
       "troop_slots": 1,
       "crate_slots": 1,
@@ -694,7 +701,7 @@
     },
     "Mi-8MT": {
       "troop_slots": 2,
-      "crate_slots": 1,
+      "crate_slots": 2,
       "total_slots": 2 
     },
     "SA342L": {
@@ -2551,6 +2558,9 @@
     "UH-1H": [
       "Helicopter"
     ],
+    "CH-47Fbl1": [
+      "Helicopter"
+      ],
     "FARP Fuel Depot": [
       "Logistics",
       "Unarmed"
