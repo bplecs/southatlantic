@@ -24,7 +24,7 @@
   "repair_crate": {
     "Red": {
       "name": "Logistics Repair",
-      "weight": 2000,
+      "weight": 1500,
       "required": 1,
       "pos_unit": null,
       "max_drop_height_agl": 10,
@@ -32,7 +32,7 @@
     },
     "Blue": {
       "name": "Logistics Repair",
-      "weight": 1000,
+      "weight": 1500,
       "required": 1,
       "pos_unit": null,
       "max_drop_height_agl": 10,
@@ -50,7 +50,7 @@
     "supply_transfer_crate": {
       "Red": {
         "name": "Supply Transfer",
-        "weight": 2000,
+        "weight": 1500,
         "required": 1,
         "pos_unit": null,
         "max_drop_height_agl": 10,
@@ -753,7 +753,7 @@
         "crates": [
           {
             "name": "Kub Launcher",
-            "weight": 2000,
+            "weight": 1500,
             "required": 2,
             "pos_unit": "Kub 2P25 ln",
             "max_drop_height_agl": 10,
@@ -761,7 +761,7 @@
           },
           {
             "name": "Kub Radar",
-            "weight": 2000,
+            "weight": 1500,
             "required": 1,
             "pos_unit": "Kub 1S91 str",
             "max_drop_height_agl": 10,
@@ -770,7 +770,7 @@
         ],
         "repair_crate": {
           "name": "Kub Repair",
-          "weight": 2000,
+          "weight": 1500,
           "required": 1,
           "pos_unit": null,
           "max_drop_height_agl": 10,
@@ -819,7 +819,7 @@
         "crates": [
           {
             "name": "SA-2 Divina",
-            "weight": 2000,
+            "weight": 1500,
             "required": 4,
             "pos_unit": null,
             "max_drop_height_agl": 10,
@@ -828,7 +828,7 @@
         ],
         "repair_crate": {
           "name": "SA2 Repair",
-          "weight": 2000,
+          "weight": 1500,
           "required": 1,
           "pos_unit": null,
           "max_drop_height_agl": 10,
@@ -854,7 +854,7 @@
         "crates": [
           {
             "name": "SA11 Launcher",
-            "weight": 2000,
+            "weight": 1500,
             "required": 2,
             "pos_unit": "SA-11 Buk LN 9A310M1",
             "max_drop_height_agl": 10,
@@ -862,7 +862,7 @@
           },
           {
             "name": "SA11 Search Radar",
-            "weight": 2000,
+            "weight": 1500,
             "required": 1,
             "pos_unit": "SA-11 Buk SR 9S18M1",
             "max_drop_height_agl": 10,
@@ -870,7 +870,7 @@
           },
           {
             "name": "SA11 CC",
-            "weight": 2000,
+            "weight": 1500,
             "required": 1,
             "pos_unit": "SA-11 Buk CC 9S470M1",
             "max_drop_height_agl": 10,
@@ -879,7 +879,7 @@
         ],
         "repair_crate": {
           "name": "Buk Repair",
-          "weight": 2000,
+          "weight": 1500,
           "required": 1,
           "pos_unit": null,
           "max_drop_height_agl": 10,
@@ -904,8 +904,8 @@
         "crates": [
           {
             "name": "SA15 Tor",
-            "weight": 2000,
-            "required": 4,
+            "weight": 1500,
+            "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 10,
             "max_drop_speed": 50
@@ -913,7 +913,7 @@
         ],
         "repair_crate": null,
         "logistics": null,
-	"cost": 100,
+	"cost": 70,
         "ewr": {
           "range": 20000
         },
@@ -931,7 +931,7 @@
         "crates": [
           {
             "name": "SA8 Osa",
-            "weight": 2000,
+            "weight": 1500,
             "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 10,
@@ -980,7 +980,7 @@
         "crates": [
           {
             "name": "Shilka Crate",
-            "weight": 2000,
+            "weight": 1500,
             "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 10,
@@ -1005,7 +1005,7 @@
         "crates": [
           {
             "name": "Tunguska Crate",
-            "weight": 2000,
+            "weight": 1500,
             "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 10,
@@ -1030,7 +1030,7 @@
         "crates": [
           {
             "name": "SA9 Strela Crate",
-            "weight": 2000,
+            "weight": 1500,
             "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 10,
@@ -1055,7 +1055,7 @@
         "crates": [
           {
             "name": "SA13 Strela Crate",
-            "weight": 2000,
+            "weight": 1500,
             "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 10,
@@ -1080,7 +1080,7 @@
         "crates": [
           {
             "name": "Howitzer Crate",
-            "weight": 2000,
+            "weight": 1500,
             "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 20,
@@ -1130,7 +1130,7 @@
         "crates": [
           {
             "name": "MLRS Grad",
-            "weight": 2000,
+            "weight": 1500,
             "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 20,
@@ -1156,7 +1156,7 @@
         "crates": [
           {
             "name": "MLRS Uragan",
-            "weight": 2000,
+            "weight": 1500,
             "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 20,
@@ -1181,7 +1181,7 @@
         "crates": [
           {
             "name": "T72 Crate",
-            "weight": 2000,
+            "weight": 1500,
             "required": 4,
             "pos_unit": null,
             "max_drop_height_agl": 20,
@@ -1208,7 +1208,7 @@
         "crates": [
           {
             "name": "Scout Car Crate",
-            "weight": 2000,
+            "weight": 1500,
             "required": 1,
             "pos_unit": null,
             "max_drop_height_agl": 20,
@@ -1236,7 +1236,7 @@
         "crates": [
           {
             "name": "BMP3 Crate",
-            "weight": 2000,
+            "weight": 1500,
             "required": 4,
             "pos_unit": null,
             "max_drop_height_agl": 20,
@@ -1263,7 +1263,7 @@
         "crates": [
           {
             "name": "Ammo Truck Crate",
-            "weight": 2000,
+            "weight": 1500,
             "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 20,
@@ -1288,7 +1288,7 @@
         "crates": [
           {
             "name": "Fuel Truck Crate",
-            "weight": 2000,
+            "weight": 1500,
             "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 20,
@@ -1314,7 +1314,7 @@
         "crates": [
           {
             "name": "EWR Crate",
-            "weight": 2000,
+            "weight": 1500,
             "required": 1,
             "pos_unit": null,
             "max_drop_height_agl": 20,
@@ -1340,7 +1340,7 @@
         "crates": [
           {
             "name": "FARP Crate",
-            "weight": 2000,
+            "weight": 1500,
             "required": 4,
             "pos_unit": null,
             "max_drop_height_agl": 10,
@@ -1372,13 +1372,13 @@
         ],
         "template": "DEPROLAND",
         "persist": "Forever",
-        "limit": 10,
+        "limit": 8,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
             "name": "Roland",
-            "weight": 1600,
-            "required": 4,
+            "weight": 1500,
+            "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 10,
             "max_drop_speed": 50
@@ -1404,7 +1404,7 @@
         "crates": [
           {
             "name": "Hawk Launcher",
-            "weight": 1600,
+            "weight": 1500,
             "required": 1,
             "pos_unit": "Hawk ln",
             "max_drop_height_agl": 10,
@@ -1412,7 +1412,7 @@
           },
           {
             "name": "Hawk Search Radar",
-            "weight": 1600,
+            "weight": 1500,
             "required": 1,
             "pos_unit": "Hawk sr",
             "max_drop_height_agl": 10,
@@ -1420,7 +1420,7 @@
           },
           {
             "name": "Hawk Track Radar",
-            "weight": 1600,
+            "weight": 1500,
             "required": 1,
             "pos_unit": "Hawk tr",
             "max_drop_height_agl": 10,
@@ -1428,7 +1428,7 @@
           },
           {
             "name": "Hawk CC",
-            "weight": 1600,
+            "weight": 1500,
             "required": 1,
             "pos_unit": "Hawk pcp",
             "max_drop_height_agl": 10,
@@ -1437,7 +1437,7 @@
         ],
         "repair_crate": {
           "name": "Hawk Repair",
-          "weight": 1600,
+          "weight": 1500,
           "required": 1,
           "pos_unit": null,
           "max_drop_height_agl": 10,
@@ -1462,7 +1462,7 @@
         "crates": [
           {
             "name": "Avenger Crate",
-            "weight": 1600,
+            "weight": 1500,
             "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 10,
@@ -1487,7 +1487,7 @@
         "crates": [
           {
             "name": "Linebacker Crate",
-            "weight": 1600,
+            "weight": 1500,
             "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 10,
@@ -1512,7 +1512,7 @@
         "crates": [
           {
             "name": "Gepard Crate",
-            "weight": 1600,
+            "weight": 1500,
             "required": 4,
             "pos_unit": null,
             "max_drop_height_agl": 20,
@@ -1537,7 +1537,7 @@
         "crates": [
           {
             "name": "Vulcan Crate",
-            "weight": 1600,
+            "weight": 1500,
             "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 20,
@@ -1563,7 +1563,7 @@
         "crates": [
           {
             "name": "Howitzer Crate",
-            "weight": 1600,
+            "weight": 1500,
             "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 20,
@@ -1588,7 +1588,7 @@
 	 "crates": [
 	   {
 	     "name": "Howtz Battery Crate",
-	     "weight": 1600,
+	     "weight": 1500,
 	     "required": 4,
 	     "pos_unit": null,
 	     "max_drop_height_agl": 20,
@@ -1613,7 +1613,7 @@
         "crates": [
           {
             "name": "MLRS crate",
-            "weight": 1600,
+            "weight": 1500,
             "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 20,
@@ -1638,7 +1638,7 @@
         "crates": [
           {
             "name": "Bradley Crate",
-            "weight": 1600,
+            "weight": 1500,
             "required": 4,
             "pos_unit": null,
             "max_drop_height_agl": 20,
@@ -1665,7 +1665,7 @@
         "crates": [
           {
             "name": "Leopard Crate",
-            "weight": 1600,
+            "weight": 1500,
             "required": 4,
             "pos_unit": null,
             "max_drop_height_agl": 20,
@@ -1692,7 +1692,7 @@
         "crates": [
           {
             "name": "Scout Car Crate",
-            "weight": 1600,
+            "weight": 1500,
             "required": 1,
             "pos_unit": null,
             "max_drop_height_agl": 20,
@@ -1719,7 +1719,7 @@
         "crates": [
           {
             "name": "Ammo Truck Crate",
-            "weight": 1600,
+            "weight": 1500,
             "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 20,
@@ -1744,7 +1744,7 @@
         "crates": [
           {
             "name": "Fuel Truck Crate",
-            "weight": 1600,
+            "weight": 1500,
             "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 20,
@@ -1769,7 +1769,7 @@
         "crates": [
           {
             "name": "EWR Crate",
-            "weight": 1600,
+            "weight": 1500,
             "required": 1,
             "pos_unit": null,
             "max_drop_height_agl": 10,
@@ -1795,7 +1795,7 @@
         "crates": [
           {
             "name": "FARP Crate",
-            "weight": 1600,
+            "weight": 1500,
             "required": 4,
             "pos_unit": null,
             "max_drop_height_agl": 10,
