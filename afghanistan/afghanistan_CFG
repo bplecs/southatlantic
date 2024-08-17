@@ -1209,8 +1209,7 @@
 	"cost": 100,
         "ewr": null,
         "jtac": null
-        }
-      },
+        },
  {
         "path": [
           "Ground Units",
@@ -1987,6 +1986,11 @@
       "SR",
       "SmallArms"
     ],
+    "Soldier M4 GRG": [
+      "Infantry",
+      "SR",
+      "SmallArms"
+      ],
     "ZSU_57_2": [
       "AAA",
       "MR",
