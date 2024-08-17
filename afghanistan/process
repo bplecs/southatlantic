@@ -3,4 +3,4 @@
 # Postprocess the base mission file and templates to build the complete final .miz to run the actual scenario
 # 
 
- ../../bfnext/bftools/bftools.exe miz --output afghanistan.miz --base afghan_base.miz --weapon templates/weapons.miz --warehouse templates/warehouse.miz --options templates/options.miz
+ ../../bfnext/bftools/bftools.exe miz --output afghanistan.miz --base afghan_base_v3.miz --weapon templates/weapons.miz --warehouse templates/warehouse.miz --options templates/options.miz

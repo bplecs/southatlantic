@@ -212,7 +212,7 @@
     "Red": {
       "awacs-waypoint": {
         "kind": "AwacsWaypoint",
-        "cost": 10,
+        "cost": 3,
         "penalty": null,
         "limit": null
       },
@@ -227,9 +227,9 @@
             "speed": 700.0
           }
         },
-        "cost": 50,
+        "cost": 10,
         "penalty": 0,
-        "limit": null
+        "limit": 2
       },
       "basket-tanker": {
         "kind": {
@@ -242,9 +242,9 @@
             "speed": 700.0
           }
         },
-        "cost": 50,
+        "cost": 10,
         "penalty": 0,
-        "limit": null
+        "limit": 2
       },
       "boom-tanker": {
         "kind": {
@@ -257,20 +257,21 @@
             "speed": 700.0
           }
         },
-        "cost": 50,
+        "cost": 10,
         "penalty": 0,
-        "limit": null
+        "limit": 2
       },
+
 
       "attack-waypoint": {
         "kind": "AttackersWaypoint",
-        "cost": 5,
+        "cost": 3,
         "penalty": null,
         "limit": null
       },
       "drone-waypoint": {
         "kind": "DroneWaypoint",
-        "cost": 5,
+        "cost": 3,
         "penalty": null,
         "limit": null
       },
@@ -314,13 +315,13 @@
       },
       "fighters-waypoint": {
         "kind": "FighersWaypoint",
-        "cost": 5,
+        "cost": 3,
         "penalty": null,
         "limit": null
       },
       "tanker-waypoint": {
         "kind": "TankerWaypoint",
-        "cost": 10,
+        "cost": 3,
         "penalty": null,
         "limit": null
       },
@@ -459,19 +460,19 @@
     "Blue": {
       "awacs-waypoint": {
         "kind": "AwacsWaypoint",
-        "cost": 10,
+        "cost": 3,
         "penalty": null,
         "limit": null
       },
       "attack-waypoint": {
         "kind": "AttackersWaypoint",
-        "cost": 5,
+        "cost": 3,
         "penalty": null,
         "limit": null
       },
       "drone-waypoint": {
         "kind": "DroneWaypoint",
-        "cost": 5,
+        "cost": 3,
         "penalty": null,
         "limit": null
       },
@@ -530,13 +531,13 @@
       },
       "fighters-waypoint": {
         "kind": "FighersWaypoint",
-        "cost": 5,
+        "cost": 3,
         "penalty": null,
         "limit": null
       },
       "tanker-waypoint": {
         "kind": "TankerWaypoint",
-        "cost": 10,
+        "cost": 3,
         "penalty": null,
         "limit": null
       },
@@ -622,7 +623,7 @@
         },
         "cost": 35,
         "penalty": 0,
-        "limit": null
+        "limit": 2 
       },
       "boom-tanker": {
         "kind": {
@@ -635,9 +636,24 @@
             "speed": 700.0
           }
         },
-        "cost": 50,
+        "cost": 10,
         "penalty": 0,
-        "limit": null
+        "limit": 2
+      },
+      "slow-tanker": { 
+        "kind": {
+	 "Tanker": {
+            "kind": "FixedWing",
+            "duration": 8,
+            "template": "BBOOMTANKER",
+            "altitude": 4572.0,
+            "altitude_typ": "BARO",
+            "speed": 370.0
+          }
+        },
+        "cost": 10,
+        "penalty": 0,
+        "limit": 2
       },
       "move": {
         "kind": {
@@ -1039,7 +1055,7 @@
         ],
         "repair_crate": null,
         "logistics": null,
-        "cost": 15,
+        "cost": 10,
         "ewr": null,
         "jtac": null
       },
@@ -1056,7 +1072,7 @@
           {
             "name": "SA13 Strela Crate",
             "weight": 1500,
-            "required": 1,
+            "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 10,
             "max_drop_speed": 50
@@ -1064,7 +1080,7 @@
         ],
         "repair_crate": null,
         "logistics": null,
-	"cost": 25,
+	"cost": 20,
         "ewr": null,
         "jtac": null
       },
