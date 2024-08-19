@@ -1373,7 +1373,7 @@
           "fuel_template": "DEPRFARPFUEL",
           "barracks_template": "DEPRFARPTENT"
         },
-	"cost": 100,
+	"cost": 200,
         "ewr": null,
         "jtac": null
       }
@@ -1827,7 +1827,7 @@
           "barracks_template": "DEPBFARPTENT"
         },
         "ewr": null,
-	"cost": 100,
+	"cost": 200,
         "jtac": null
       }
     ]
