@@ -937,30 +937,6 @@
       },
       {
         "path": [
-          "Radar SAMs",
-          "SA8 Osa"
-        ],
-        "template": "DEPSA8",
-        "persist": "Forever",
-        "limit": 8,
-        "limit_enforce": "DeleteOldest",
-        "crates": [
-          {
-            "name": "SA8 Osa",
-            "weight": 1500,
-            "required": 2,
-            "pos_unit": null,
-            "max_drop_height_agl": 10,
-            "max_drop_speed": 50
-          }
-        ],
-        "repair_crate": null,
-        "logistics": null,
-        "ewr": null,
-        "jtac": null
-      },
-      {
-        "path": [
           "AAA",
           "ZU23 Emplacement"
         ],
@@ -1636,7 +1612,7 @@
         ],
         "repair_crate": null,
         "logistics": null,
-	"cost": 50,
+	"cost": 25,
         "ewr": null,
         "jtac": null
       },
