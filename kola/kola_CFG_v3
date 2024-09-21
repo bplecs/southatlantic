@@ -1,7 +1,6 @@
 {
   "admins": {
-    "e53316fe86d249582f3ae237c15052a1": "Gordy",
-    "f279deb7a6b62c96a78eca3ddb2bd8d0": "REAPER 32 | EvilKipper"
+    "e53316fe86d249582f3ae237c15052a1": "Gordy"
   },
   "rules": { 
     "actions": "AlwaysAllowed",
@@ -716,9 +715,9 @@
       "total_slots": 2
     },
     "Mi-8MT": {
-      "troop_slots": 2,
-      "crate_slots": 2,
-      "total_slots": 2 
+      "troop_slots": 3,
+      "crate_slots": 3,
+      "total_slots": 3 
     },
     "SA342L": {
       "troop_slots": 1,
