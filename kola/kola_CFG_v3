@@ -2362,6 +2362,10 @@
       "AAA",
       "SR"
     ],
+    "ZU-23 Closed Insurgent": [
+      "AAA",
+      "SR"
+      ],
     "Ural-375": [
       "Logistics",
       "Unarmed",
@@ -2629,6 +2633,10 @@
       "SR",
       "Driveable"
     ],
+    "HL_B8M1": [
+      "SR",
+      "Driveable"
+      ],
     "tt_ZU-23": [
       "AAA",
       "SR"
