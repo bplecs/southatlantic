@@ -1,0 +1,1 @@
+gsutil -m rsync -r -i . gs://coop-log-ingest/afghanistan90s/
