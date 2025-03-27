@@ -792,7 +792,7 @@
           "max_drop_speed": 50
         },
         "logistics": null,
-	"cost": 50,
+	"cost": 100,
         "ewr": {
           "range": 30000
         },
@@ -818,7 +818,7 @@
 	 ],
 	 "repair_crate": null,
 	 "logistics": null,
-	 "cost": 25,
+	 "cost": 50,
 	 "ewr": null,
 	 "jtac": null
       },
@@ -901,7 +901,7 @@
           "max_drop_speed": 50
         },
         "logistics": null,
-	"cost": 100,
+	"cost": 200,
         "ewr": {
           "range": 60000
         },
@@ -1433,7 +1433,7 @@
           "max_drop_speed": 50
         },
         "logistics": null,
-	"cost": 75,
+	"cost": 200,
         "ewr": {
           "range": 60000
         },
