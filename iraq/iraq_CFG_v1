@@ -763,7 +763,7 @@
         ],
         "template": "DEPSA6",
         "persist": "Forever",
-        "limit": 6,
+        "limit": 1,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -804,7 +804,7 @@
 	],
 	"template": "DEPSA8",
 	"persist": "Forever",
-	"limit": 10,
+	"limit": 2,
 	"limit_enforce": "DeleteOldest",
 	"crates": [
 	  { 
@@ -829,7 +829,7 @@
         ],
         "template": "DEPSA2",
         "persist": "Forever",
-        "limit": 3,
+        "limit": 0,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -864,7 +864,7 @@
         ],
         "template": "DEPSA11",
         "persist": "Forever",
-        "limit": 6,
+        "limit": 1,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -914,7 +914,7 @@
         ],
         "template": "DEPSA15",
         "persist": "Forever",
-        "limit": 8,
+        "limit": 1,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -941,7 +941,7 @@
         ],
         "template": "DEPZU23",
         "persist": "Forever",
-        "limit": 20,
+        "limit": 10,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -966,7 +966,7 @@
         ],
         "template": "DEPSHILKA",
         "persist": "Forever",
-        "limit": 15,
+        "limit": 6,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -991,7 +991,7 @@
         ],
         "template": "DEPTUNGUSKA",
         "persist": "Forever",
-        "limit": 15,
+        "limit": 2,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -1016,7 +1016,7 @@
         ],
         "template": "DEPSA9",
         "persist": "Forever",
-        "limit": 15,
+        "limit": 4,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -1041,7 +1041,7 @@
         ],
         "template": "DEPSA13",
         "persist": "Forever",
-        "limit": 15,
+        "limit": 3,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -1066,7 +1066,7 @@
         ],
         "template": "DEPMSTA",
         "persist": "Forever",
-        "limit": 10,
+        "limit": 3,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -1091,7 +1091,7 @@
 	  ],
 	"template": "DEP6MSTA",
 	"persist": "Forever",
-	"limit": 2,
+	"limit": 1,
 	"limit_enforce": "DeleteOldest",
 	"crates": [
 	  {
@@ -1116,7 +1116,7 @@
         ],
         "template": "DEPRGRAD",
         "persist": "Forever",
-        "limit": 10,
+        "limit": 1,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -1142,7 +1142,7 @@
         ],
         "template": "DEPRMLRS",
         "persist": "Forever",
-        "limit": 6,
+        "limit": 1,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -1167,7 +1167,7 @@
         ],
         "template": "DEPT80",
         "persist": "Forever",
-        "limit": 8,
+        "limit": 2,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -1192,7 +1192,7 @@
         ],
         "template": "DEPRSCOUT",
         "persist": "Forever",
-        "limit": 10,
+        "limit": 5,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -1220,7 +1220,7 @@
         ],
         "template": "DEPBMP3",
         "persist": "Forever",
-        "limit": 10,
+        "limit": 2,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -1247,7 +1247,7 @@
         ],
         "template": "DEPRAMMO",
         "persist": "Forever",
-        "limit": 30,
+        "limit": 10,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -1298,7 +1298,7 @@
         ],
         "template": "DEP1L13",
         "persist": "Forever",
-        "limit": 12,
+        "limit": 8,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -1324,7 +1324,7 @@
         ],
         "template": "RDEPFARP",
         "persist": "Forever",
-        "limit": 4,
+        "limit": 2,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -1361,7 +1361,7 @@
         ],
         "template": "DEPROLAND",
         "persist": "Forever",
-        "limit": 8,
+        "limit": 2,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -1388,7 +1388,7 @@
         ],
         "template": "DEPHAWK",
         "persist": "Forever",
-        "limit": 8,
+        "limit": 1,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -1446,7 +1446,7 @@
         ],
         "template": "DEPAVENGER",
         "persist": "Forever",
-        "limit": 15,
+        "limit": 4,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -1471,7 +1471,7 @@
         ],
         "template": "DEPLINEBACKER",
         "persist": "Forever",
-        "limit": 10,
+        "limit": 4,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -1496,7 +1496,7 @@
         ],
         "template": "DEPGEPARD",
         "persist": "Forever",
-        "limit": 15,
+        "limit": 4,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -1521,7 +1521,7 @@
         ],
         "template": "DEPVULCAN",
         "persist": "Forever",
-        "limit": 15,
+        "limit": 4,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -1547,7 +1547,7 @@
         ],
         "template": "DEPFIRTINA",
         "persist": "Forever",
-        "limit": 10,
+        "limit": 3,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -1572,7 +1572,7 @@
 	  ],
 	 "template": "DEP6FIRTINA",
 	 "persist": "Forever",
-	 "limit": 2,
+	 "limit": 1,
 	 "limit_enforce": "DeleteOldest",
 	 "crates": [
 	   {
@@ -1597,7 +1597,7 @@
         ],
         "template": "DEPBMLRS",
         "persist": "Forever",
-        "limit": 10,
+        "limit": 1,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -1622,7 +1622,7 @@
         ],
         "template": "DEPBRADLEY",
         "persist": "Forever",
-        "limit": 10,
+        "limit": 2,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -1649,7 +1649,7 @@
         ],
         "template": "DEPLEOPARD",
         "persist": "Forever",
-        "limit": 8,
+        "limit": 2,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -1674,7 +1674,7 @@
         ],
         "template": "DEPBSCOUT",
         "persist": "Forever",
-        "limit": 10,
+        "limit": 5,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -1701,7 +1701,7 @@
         ],
         "template": "DEPBAMMO",
         "persist": "Forever",
-        "limit": 30,
+        "limit": 10,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -1751,7 +1751,7 @@
         ],
         "template": "DEPFPS117",
         "persist": "Forever",
-        "limit": 12,
+        "limit": 8,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -1777,7 +1777,7 @@
         ],
         "template": "BDEPFARP",
         "persist": "Forever",
-        "limit": 4,
+        "limit": 2,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -1866,7 +1866,7 @@
         "template": "RIGLATROOP",
         "persist": "Forever",
         "can_capture": false,
-        "limit": 25,
+        "limit": 8,
         "limit_enforce": "DeleteOldest",
         "weight": 1000,
 	"cost": 25,
@@ -1931,7 +1931,7 @@
         "template": "BSTINGERTROOP",
         "persist": "Forever",
         "can_capture": false,
-        "limit": 25,
+        "limit": 8,
         "limit_enforce": "DeleteOldest",
         "weight": 1000,
 	"cost": 25,
