@@ -10,7 +10,7 @@
     "ca": "AlwaysAllowed"
   },
   "repair_time": 2400,
-  "shutdown": 15,
+  "shutdown": 17,
   "points": {
     "new_player_join": 20,
     "air_kill": 25,
@@ -1080,7 +1080,7 @@
         ],
         "repair_crate": null,
         "logistics": null,
-	"cost": 25,
+	"cost": 50,
         "ewr": null,
         "jtac": null
       },
@@ -1116,7 +1116,7 @@
         ],
         "template": "DEPRGRAD",
         "persist": "Forever",
-        "limit": 1,
+        "limit": 5,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -1129,7 +1129,7 @@
           }
         ],
         "repair_crate": null,
-        "cost": 25,
+        "cost": 75,
         "logistics": null,
         "ewr": null,
         "jtac": null
@@ -1142,7 +1142,7 @@
         ],
         "template": "DEPRMLRS",
         "persist": "Forever",
-        "limit": 1,
+        "limit": 5,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -1155,7 +1155,7 @@
           }
         ],
         "repair_crate": null,
-	"cost": 25,
+	"cost": 100,
         "logistics": null,
         "ewr": null,
         "jtac": null
@@ -1561,7 +1561,7 @@
         ],
         "repair_crate": null,
         "logistics": null,
-	"cost": 25,
+	"cost": 50,
         "ewr": null,
         "jtac": null
       },
@@ -1597,7 +1597,7 @@
         ],
         "template": "DEPBMLRS",
         "persist": "Forever",
-        "limit": 1,
+        "limit": 5,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -1611,7 +1611,7 @@
         ],
         "repair_crate": null,
         "logistics": null,
-	"cost": 25,
+	"cost": 100,
         "ewr": null,
         "jtac": null
       },
