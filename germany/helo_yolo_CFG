@@ -274,26 +274,6 @@
         "penalty": null,
         "limit": null
       },
-      "bomber": {
-        "kind": {
-          "Bomber": {
-            "targets": 15,
-            "power": 1000,
-            "accuracy": 15,
-            "plane": {
-              "kind": "FixedWing",
-              "duration": null,
-              "template": "RBOMBER",
-              "altitude": 12000.0,
-              "altitude_typ": "BARO",
-              "speed": 1200.0
-            }
-          }
-        },
-        "cost": 100,
-        "penalty": 0,
-        "limit": null
-      },
       "paratroops": {
         "kind": {
           "Paratrooper": {
@@ -335,7 +315,7 @@
             "speed": 200.0
           }
         },
-        "cost": 100,
+        "cost": 400,
         "penalty": 0,
         "limit": null
       },
@@ -368,7 +348,7 @@
             "speed": 200.0
           }
         },
-        "cost": 50,
+        "cost": 100,
         "penalty": 0,
         "limit": null
       },
@@ -454,26 +434,6 @@
         "penalty": null,
         "limit": null
       },
-      "bomber": {
-        "kind": {
-          "Bomber": {
-            "targets": 15,
-            "power": 1000,
-            "accuracy": 15,
-            "plane": {
-              "kind": "FixedWing",
-              "duration": null,
-              "template": "BBOMBER",
-              "altitude": 12000.0,
-              "altitude_typ": "BARO",
-              "speed": 1200.0
-            }
-          }
-        },
-        "cost": 100,
-        "penalty": 0,
-        "limit": null
-      },
       "basket-tanker": {
         "kind": {
           "Tanker": {
@@ -530,7 +490,7 @@
             "speed": 200.0
           }
         },
-        "cost": 100,
+        "cost": 400,
         "penalty": 0,
         "limit": null
       },
@@ -563,7 +523,7 @@
             "speed": 200.0
           }
         },
-        "cost": 50,
+        "cost": 100,
         "penalty": 0,
         "limit": null
       },
@@ -783,91 +743,6 @@
       {
         "path": [
           "Radar SAMs",
-          "SA 2 Devina"
-        ],
-        "template": "DEPSA2",
-        "persist": "Forever",
-        "limit": 0,
-        "limit_enforce": "DeleteOldest",
-        "crates": [
-          {
-            "name": "SA-2 Divina",
-            "weight": 1500,
-            "required": 4,
-            "pos_unit": null,
-            "max_drop_height_agl": 10,
-            "max_drop_speed": 50
-          }
-        ],
-        "repair_crate": {
-          "name": "SA2 Repair",
-          "weight": 1500,
-          "required": 1,
-          "pos_unit": null,
-          "max_drop_height_agl": 10,
-          "max_drop_speed": 50
-        },
-        "logistics": null,
-        "cost": 125,
-        "ewr": {
-          "range": 60000
-        },
-        "jtac": null
-      },
-
-      {
-        "path": [
-          "Radar SAMs",
-          "SA 11 Buk"
-        ],
-        "template": "DEPSA11",
-        "persist": "Forever",
-        "limit": 1,
-        "limit_enforce": "DeleteOldest",
-        "crates": [
-          {
-            "name": "SA11 Launcher",
-            "weight": 1500,
-            "required": 2,
-            "pos_unit": "SA-11 Buk LN 9A310M1",
-            "max_drop_height_agl": 10,
-            "max_drop_speed": 50
-          },
-          {
-            "name": "SA11 Search Radar",
-            "weight": 1500,
-            "required": 1,
-            "pos_unit": "SA-11 Buk SR 9S18M1",
-            "max_drop_height_agl": 10,
-            "max_drop_speed": 50
-          },
-          {
-            "name": "SA11 CC",
-            "weight": 1500,
-            "required": 1,
-            "pos_unit": "SA-11 Buk CC 9S470M1",
-            "max_drop_height_agl": 10,
-            "max_drop_speed": 50
-          }
-        ],
-        "repair_crate": {
-          "name": "Buk Repair",
-          "weight": 1500,
-          "required": 1,
-          "pos_unit": null,
-          "max_drop_height_agl": 10,
-          "max_drop_speed": 50
-        },
-        "logistics": null,
-	"cost": 200,
-        "ewr": {
-          "range": 60000
-        },
-        "jtac": null
-      },
-      {
-        "path": [
-          "Radar SAMs",
           "SA15 Tor"
         ],
         "template": "DEPSA15",
@@ -899,7 +774,7 @@
         ],
         "template": "DEPZU23",
         "persist": "Forever",
-        "limit": 10,
+        "limit": 12,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -924,7 +799,7 @@
         ],
         "template": "DEPSHILKA",
         "persist": "Forever",
-        "limit": 6,
+        "limit": 12,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -949,7 +824,7 @@
         ],
         "template": "DEPTUNGUSKA",
         "persist": "Forever",
-        "limit": 2,
+        "limit": 8,
         "limit_enforce": "DeleteOldest",
         "crates": [
           {
@@ -1063,7 +938,7 @@
 	],
 	"repair_crate": null,
 	"logistics": null,
-	"cost": 100,
+	"cost": 150,
 	"ewr": null,
 	"jtac": null
       },
@@ -1113,7 +988,7 @@
           }
         ],
         "repair_crate": null,
-	"cost": 100,
+	"cost": 125,
         "logistics": null,
         "ewr": null,
         "jtac": null
@@ -1139,7 +1014,7 @@
         ],
         "repair_crate": null,
         "logistics": null,
-	"cost": 100,
+	"cost": 75,
         "ewr": null,
         "jtac": null
         },
@@ -1275,40 +1150,6 @@
           "range": 500000
         },
         "jtac": null
-      },
-      {
-        "path": [
-          "FARP"
-        ],
-        "template": "RDEPFARP",
-        "persist": "Forever",
-        "limit": 2,
-        "limit_enforce": "DeleteOldest",
-        "crates": [
-          {
-            "name": "FARP Crate",
-            "weight": 1500,
-            "required": 5,
-            "pos_unit": null,
-            "max_drop_height_agl": 10,
-            "max_drop_speed": 50
-          }
-        ],
-        "repair_crate": null,
-        "logistics": {
-          "pad_templates": [
-            "DEPRFARPPAD0",
-            "DEPRFARPPAD1",
-            "DEPRFARPPAD2",
-            "DEPRFARPPAD3"
-          ],
-          "ammo_template": "DEPRFARPAMMO",
-          "fuel_template": "DEPRFARPFUEL",
-          "barracks_template": "DEPRFARPTENT"
-        },
-	"cost": 200,
-        "ewr": null,
-        "jtac": null
       }
     ],
     "Blue": [
@@ -1333,67 +1174,9 @@
         ],
         "repair_crate": null,
         "logistics": null,
-	"cost": 50,
+	"cost": 70,
         "ewr": {
           "range": 20000
-        },
-        "jtac": null
-      },
-      {
-        "path": [
-          "Radar SAMs",
-          "Hawk System"
-        ],
-        "template": "DEPHAWK",
-        "persist": "Forever",
-        "limit": 1,
-        "limit_enforce": "DeleteOldest",
-        "crates": [
-          {
-            "name": "Hawk Launcher",
-            "weight": 1500,
-            "required": 1,
-            "pos_unit": "Hawk ln",
-            "max_drop_height_agl": 10,
-            "max_drop_speed": 50
-          },
-          {
-            "name": "Hawk Search Radar",
-            "weight": 1500,
-            "required": 1,
-            "pos_unit": "Hawk sr",
-            "max_drop_height_agl": 10,
-            "max_drop_speed": 50
-          },
-          {
-            "name": "Hawk Track Radar",
-            "weight": 1500,
-            "required": 1,
-            "pos_unit": "Hawk tr",
-            "max_drop_height_agl": 10,
-            "max_drop_speed": 50
-          },
-          {
-            "name": "Hawk CC",
-            "weight": 1500,
-            "required": 1,
-            "pos_unit": "Hawk pcp",
-            "max_drop_height_agl": 10,
-            "max_drop_speed": 50
-          }
-        ],
-        "repair_crate": {
-          "name": "Hawk Repair",
-          "weight": 1500,
-          "required": 1,
-          "pos_unit": null,
-          "max_drop_height_agl": 10,
-          "max_drop_speed": 50
-        },
-        "logistics": null,
-	"cost": 200,
-        "ewr": {
-          "range": 60000
         },
         "jtac": null
       },
@@ -1438,31 +1221,6 @@
             "required": 2,
             "pos_unit": null,
             "max_drop_height_agl": 10,
-            "max_drop_speed": 50
-          }
-        ],
-        "repair_crate": null,
-        "logistics": null,
-	"cost": 25,
-        "ewr": null,
-        "jtac": null
-      },
-      {
-        "path": [
-          "AAA",
-          "Gepard"
-        ],
-        "template": "DEPGEPARD",
-        "persist": "Forever",
-        "limit": 4,
-        "limit_enforce": "DeleteOldest",
-        "crates": [
-          {
-            "name": "Gepard Crate",
-            "weight": 1500,
-            "required": 4,
-            "pos_unit": null,
-            "max_drop_height_agl": 20,
             "max_drop_speed": 50
           }
         ],
@@ -1544,7 +1302,7 @@
 	   ],
 	   "repair_crate": null,
 	   "logistics": null,
-	   "cost": 100,
+	   "cost": 125,
 	   "ewr": null,
 	   "jtac": null
       },
@@ -1621,7 +1379,7 @@
         ],
         "repair_crate": null,
         "logistics": null,
-	"cost": 100,
+	"cost": 75,
         "ewr": null,
         "jtac": null
       },
@@ -1727,40 +1485,6 @@
         "ewr": {
           "range": 500000
         },
-        "jtac": null
-      },
-      {
-        "path": [
-          "FARP"
-        ],
-        "template": "BDEPFARP",
-        "persist": "Forever",
-        "limit": 2,
-        "limit_enforce": "DeleteOldest",
-        "crates": [
-          {
-            "name": "FARP Crate",
-            "weight": 1500,
-            "required": 5,
-            "pos_unit": null,
-            "max_drop_height_agl": 10,
-            "max_drop_speed": 50
-          }
-        ],
-        "repair_crate": null,
-        "logistics": {
-          "pad_templates": [
-            "DEPBFARPPAD0",
-            "DEPBFARPPAD1",
-            "DEPBFARPPAD2",
-            "DEPBFARPPAD3"
-          ],
-          "ammo_template": "DEPBFARPAMMO",
-          "fuel_template": "DEPBFARPFUEL",
-          "barracks_template": "DEPBFARPTENT"
-        },
-        "ewr": null,
-	"cost": 200,
         "jtac": null
       }
     ]
