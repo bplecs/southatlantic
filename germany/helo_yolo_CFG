@@ -387,27 +387,6 @@
         "penalty": 0,
         "limit": null
       },
-      "drone": {
-        "kind": {
-          "Drone": {
-            "jtac": {
-              "range": 16000,
-	      "nolos": true
-            },
-            "plane": {
-              "kind": "FixedWing",
-              "duration": 12,
-              "template": "RDRONE",
-              "altitude": 4500.0,
-              "altitude_typ": "RADIO",
-              "speed": 400.0
-            }
-          }
-        },
-        "cost": 35,
-        "penalty": 0,
-        "limit": null
-      },
       "move": {
         "kind": {
           "Move": {
@@ -602,27 +581,6 @@
         "cost": 50,
         "penalty": 0,
         "limit": null
-      },
-      "drone": {
-        "kind": {
-          "Drone": {
-            "jtac": {
-              "range": 16000,
-	      "nolos": true
-            },
-            "plane": {
-              "kind": "FixedWing",
-              "duration": 12,
-              "template": "BDRONE",
-              "altitude": 4500.0,
-              "altitude_typ": "RADIO",
-              "speed": 400.0
-            }
-          }
-        },
-        "cost": 35,
-        "penalty": 0,
-        "limit": 2 
       },
       "boom-tanker": {
         "kind": {
