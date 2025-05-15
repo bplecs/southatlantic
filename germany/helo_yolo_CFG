@@ -69,7 +69,7 @@
       "Blue": "BINVENTORY"
     }
   },
-  "logistics_exclusion": 10000,
+  "logistics_exclusion": 5000,
   "unit_cull_distance": 83000,
   "ground_vehicle_cull_distance": 12500,
   "artillery_mission_range": 32000,
