@@ -1699,6 +1699,14 @@
       "Logistics",
       "Unarmed"
     ],
+    "Cargo01": [
+      "Logistics",
+      "Unarmed"
+      ],
+    "Cargo04": [
+      "Logistics",
+      "Unarmed"
+      ],
     "SA Ski Ramp": [
       "Logistics",
       "Unarmed"
