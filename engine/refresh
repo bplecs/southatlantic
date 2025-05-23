@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cp ~/RustroverProjects/gordyengine/target/release/gordyengine.dll .
+
