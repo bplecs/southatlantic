@@ -171,6 +171,7 @@
     "SA342L": "Logistics",
     "AH-64D_BLK_II": "Attack",
     "OH58D": "Recon",
+    "OH-58D": "Recon",
     "UH-1H": "Logistics",
     "CH-47Fbl1": "Logistics",
     "L-39ZA": "Recon",
@@ -2746,6 +2747,9 @@
     "OH58D": [
       "Helicopter"
     ],
+    "OH-58D": [
+      "Helicopter"
+      ],
     "Su-33": [
       "Aircraft"
     ],
